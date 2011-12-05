@@ -1,0 +1,10 @@
+!!! 5
+%head
+  %title Patrick Lange, Designer
+  %meta{ :name => "keywords", :content => "Patrick Lange Illustration, Patrick Lange Design, Design, Chicago Design, Indianapolis Design, Interactive Design, Web Design, Indianapolis Illustrator, Chicago Illustrator, Design Chicago" }
+  = stylesheet_link_tag('kline')
+%body
+  #content
+    = render 'layouts/header'    
+    = yield
+    = render 'layouts/footer'

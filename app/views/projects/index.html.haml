@@ -1,0 +1,13 @@
+#work
+  - @projects.in_groups_of(5) do |project_group|
+    .row
+      - project_group.each do |project|
+        -if project
+          .project
+            %span.title
+              = "&quot;#{h(project.title)}&quot;"
+            %span.description
+              = h(project.description)
+            %a{:href => "img/catch.jpg", :target => "_blank"}
+              = image_tag("img/thm_catch.jpg", :width => 125, :height => 168, :alt => "The Catch")
+              = image_tag("img/thm_catch_on.jpg", :width => 125, :height => 168, :alt => "")

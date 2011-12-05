@@ -1,0 +1,22 @@
+#header
+  #logos
+    = link_to(image_tag("klinelogo.png", :width => 233, :height => 36, :alt => "Patrick Lange"), "/")
+    = link_to(image_tag("email.png", :width => "231", :alt => "patrick@patrickclange.com"),"mailto:patrick@patrickclange.com", :onclick => "_gaq.push(['_trackEvent', 'Contact', 'Click', 'Email Link - Beneath Logo']);", :id => "email")
+  #rnav
+    %ul
+      %li{:class => @prefix == "work" ? "current" : nil}
+        = link_to(image_tag("btn_work.png", :width => 47, :alt => "Work"), root_path)
+      %li{:class => @prefix == "about" ? "current" : nil}
+        = link_to(image_tag("btn_about.png", :width => 54, :alt => "About"), about_path)
+      %li{:class => @prefix == "accomplish" ? "current" : nil}
+        = link_to(image_tag("btn_accomp.png", :width => 152, :alt => "Accomplishments"), accomplishments_path)
+      %li#contact
+        = link_to(image_tag("btn_contact.png", :width => 67, :alt => "Contact"), "", :id => "contactLnk")
+        %ul
+          %li
+            = link_to(image_tag("btn_resume.png", :width => 84, :alt => "Resume"), "lange_resume.pdf", :target => "_blank", :onclick => "_gaq.push(['_trackEvent', 'Contact', 'Click', 'Resume Download']);")
+          %li
+            = link_to(image_tag("btn_linked.png", :width => 84, :alt => "LinkedIn"), "http://www.linkedin.com/pub/patrick-lange/11/ab9/707", :target => "_blank", :onclick => "_gaq.push(['_trackEvent', 'Contact', 'Click', 'External Link - LinkedIn']);")
+          %li
+            = link_to(image_tag("btn_email.png", :width => 84, :alt => "Email"), "mailto:patrick@patrickclange.com", :onclick => "_gaq.push(['_trackEvent', 'Contact', 'Click', 'Email Link - Contact Menu']);")
+= banner
