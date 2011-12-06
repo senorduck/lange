@@ -1,0 +1,18 @@
+%p
+  %strong Title:
+  =h @project.title
+%p
+  %strong Description:
+  =h @project.description
+%p
+  %strong Artwork (Full):
+  =image_tag(@project.artwork.url)
+%p
+  %strong Artwork (Thumb)
+  =image_tag(@project.artwork.url(:thumb_on))
+%p
+  %strong Artwork (Thumb, Off)
+  =image_tag(@project.artwork.url(:thumb_off))
+
+= link_to 'Edit', edit_project_path(@project) | 
+= link_to 'Back', projects_path

@@ -12,6 +12,6 @@ function work(){
     $(this).find("img.on").fadeOut(600);
   });
   $(".project a").lightBox({
-    imageBtnClose:'img/btn_close.gif',imageBtnPrev:'img/btn_prev.gif',imageBtnNext:'img/btn_next.gif'
+    imageBtnClose:'images/btn_close.gif',imageBtnPrev:'images/btn_prev.gif',imageBtnNext:'images/btn_next.gif'
   });
 }

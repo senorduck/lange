@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111205055203) do
+ActiveRecord::Schema.define(:version => 20111206053841) do
 
   create_table "accomplishments", :force => true do |t|
     t.text     "description"
@@ -22,12 +22,18 @@ ActiveRecord::Schema.define(:version => 20111205055203) do
     t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "artwork_file_name"
+    t.string   "artwork_content_type"
+    t.integer  "artwork_file_size"
+    t.datetime "artwork_updated_at"
+    t.string   "status"
   end
 
   create_table "users", :force => true do |t|
     t.text     "email_address"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "password"
   end
 
 end

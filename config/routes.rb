@@ -4,7 +4,7 @@ ActionController::Routing::Routes.draw do |map|
   map.about '/about', :controller => 'pages', :action => 'about'
   
   map.resources :accomplishments
-  map.resources :projects, :only => :index
+  map.resources :projects
 
   map.root :controller => "projects", :action => 'index', :conditions => {:method => :get}
   

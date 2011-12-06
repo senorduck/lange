@@ -1,0 +1,17 @@
+- form_for(@project, :html => { :multipart => true }) do |f|
+  = f.error_messages
+  %p
+    = f.label :title
+    = f.text_field :title
+  %p
+    = f.label :description
+    = f.text_area :description
+  %p
+    = image_tag(@project.artwork.url)
+    = f.label :artwork
+    = f.file_field :artwork
+  %p
+    = f.submit 'Update'
+
+= link_to 'Show', @project |
+= link_to 'Back', projects_path
