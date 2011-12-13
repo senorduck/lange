@@ -11,7 +11,7 @@ function work(){
   }).mouseleave(function(){
     $(this).find("img.on").fadeOut(600);
   });
-  $(".project a").lightBox({
+  $(".project a.lightbox_trigger").lightBox({
     imageBtnClose:'images/btn_close.gif',imageBtnPrev:'images/btn_prev.gif',imageBtnNext:'images/btn_next.gif'
   });
 }

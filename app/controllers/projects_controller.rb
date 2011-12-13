@@ -1,6 +1,5 @@
 class ProjectsController < ApplicationController
   layout "application"
-  attr_accessor :status
   before_filter :set_title_prefix
 
   def index
@@ -45,9 +44,9 @@ class ProjectsController < ApplicationController
     flash[:success] = "Project Deleted"
     redirect_to(projects_url)
   end
-  
+
   private
-  
+
   def set_title_prefix
     @prefix = "work"
     @title = "Work"

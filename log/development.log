@@ -12651,3 +12651,2867 @@ Rendered layouts/_header (1.0ms)
 Rendered layouts/_footer (0.2ms)
 Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/projects]
   [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" [0m
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:44:05) [GET]
+  [4;36;1mProject Load (0.8ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (10.0ms)
+Rendered layouts/_footer (3.1ms)
+Completed in 80ms (View: 72, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:45:25) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:46:05) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:46:47) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:46:52) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:46:59) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:47:19) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:47:26) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:47:32) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:47:35) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:47:52) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:48:07) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:49:06) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:49:11) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:49:15) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:49:25) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:49:32) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:51:10) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:51:57) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+
+ActionView::TemplateError (edit_project_url failed to generate from {:action=>"edit", :controller=>"projects", :id=>nil}, expected: {:action=>"edit", :controller=>"projects"}, diff: {:id=>nil}) on line #15 of app/views/projects/index.html.haml:
+12:               = image_tag(project.artwork.url(:thumb_off), :width => 125, :height => 168, :alt => project.title)
+13:               = image_tag(project.artwork.url(:thumb_on), :width => 125, :height => 168, :alt => "", :class => "on")
+14:         #admin_controls
+15:           = link_to 'Edit', edit_project_path(project)
+16:           |
+17:           = link_to 'Delete', project, :method => :delete, :confirm => "Are you sure you want to delete this project?"
+
+    (eval):16:in `edit_project_path'
+    app/views/projects/index.html.haml:15:in `_run_haml_app47views47projects47index46html46haml'
+    app/views/projects/index.html.haml:4:in `each'
+    app/views/projects/index.html.haml:4:in `_run_haml_app47views47projects47index46html46haml'
+    app/views/projects/index.html.haml:2:in `_run_haml_app47views47projects47index46html46haml'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.1ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:52:17) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:54:15) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+ERROR: compiling _run_haml_app47views47layouts47application46html46haml RAISED compile error
+/Users/bhaley/Desktop/lange/app/views/layouts/application.html.haml:6: syntax error, unexpected tSTRING_BEG, expecting kDO or '{' or '('
+... nil, :class => admin_login? "admin" : nil)}>\n  <div id='co...
+                              ^
+/Users/bhaley/Desktop/lange/app/views/layouts/application.html.haml:6: syntax error, unexpected ':', expecting '}'
+...lass => admin_login? "admin" : nil)}>\n  <div id='content'>\...
+                              ^
+/Users/bhaley/Desktop/lange/app/views/layouts/application.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...n? "admin" : nil)}>\n  <div id='content'>\n    #{_hamlout.ad...
+                              ^
+/Users/bhaley/Desktop/lange/app/views/layouts/application.html.haml:6: syntax error, unexpected $undefined
+... nil)}>\n  <div id='content'>\n    #{_hamlout.adjust_tabs(2)...
+                              ^
+Function body:           def _run_haml_app47views47layouts47application46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:ugly=>false, :escape_html=>false, :escape_attrs=>true, :format=>:xhtml, :attr_wrapper=>"'", :preserve=>["textarea", "pre", "code"], :encoding=>nil, :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"]});_erbout = _hamlout.buffer;__in_erb_template = true;;_hamlout.push_text("<!DOCTYPE html>\n<head>\n  <title>Patrick Lange, Designer</title>\n  <meta content='Patrick Lange Illustration, Patrick Lange Design, Design, Chicago Design, Indianapolis Design, Interactive Design, Web Design, Indianapolis Illustrator, Chicago Illustrator, Design Chicago' name='keywords' />\n  #{_hamlout.adjust_tabs(1); 
+
+
+
+_hamlout.format_script_false_false_false_false_false_true_false(( stylesheet_link_tag('kline')
+));}\n</head>\n<body#{_hamlout.adjust_tabs(-1); _hamlout.attributes({}, nil, :class => admin_login? "admin" : nil)}>\n  <div id='content'>\n    #{_hamlout.adjust_tabs(2); 
+
+_hamlout.format_script_false_false_false_false_false_true_false(( render 'layouts/header'
+));}\n    #{_hamlout.format_script_false_false_false_false_false_true_false(( yield
+));}\n    #{_hamlout.format_script_false_false_false_false_false_true_false(( render 'layouts/footer'
+));}\n  </div>\n</body>\n", -2, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper if @haml_buffer;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/bhaley/Desktop/lange/app/views/layouts/application.html.haml:14:in `compile!'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render_without_haml'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/haml-3.1.4/rails/../lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_view/base.rb:352:in `_render_with_layout'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render_without_haml'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/haml-3.1.4/rails/../lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/sass-3.1.11/rails/../lib/sass/plugin/rack.rb:54:in `call'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/Users/bhaley/.rvm/gems/ree-1.8.7-2010.02@lange/gems/rails-2.3.5/lib/commands/server.rb:111
+/Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/bhaley/Desktop/lange/app/views/layouts/application.html.haml:6: syntax error, unexpected tSTRING_BEG, expecting kDO or '{' or '('
+... nil, :class => admin_login? "admin" : nil)}>\n  <div id='co...
+                              ^
+/Users/bhaley/Desktop/lange/app/views/layouts/application.html.haml:6: syntax error, unexpected ':', expecting '}'
+...lass => admin_login? "admin" : nil)}>\n  <div id='content'>\...
+                              ^
+/Users/bhaley/Desktop/lange/app/views/layouts/application.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...n? "admin" : nil)}>\n  <div id='content'>\n    #{_hamlout.ad...
+                              ^
+/Users/bhaley/Desktop/lange/app/views/layouts/application.html.haml:6: syntax error, unexpected $undefined
+... nil)}>\n  <div id='content'>\n    #{_hamlout.adjust_tabs(2)...
+                              ^) on line #6 of app/views/layouts/application.html.haml:
+3:   %title Patrick Lange, Designer
+4:   %meta{ :name => "keywords", :content => "Patrick Lange Illustration, Patrick Lange Design, Design, Chicago Design, Indianapolis Design, Interactive Design, Web Design, Indianapolis Illustrator, Chicago Illustrator, Design Chicago" }
+5:   = stylesheet_link_tag('kline')
+6: %body{:class => admin_login? "admin" : nil}
+7:   #content
+8:     = render 'layouts/header'    
+9:     = yield
+
+    app/views/layouts/application.html.haml:14:in `compile!'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (87.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:54:21) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:54:33) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:54:37) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:55:08) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:55:11) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:55:16) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:55:21) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:55:31) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:55:39) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:55:41) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:56:06) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:56:34) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:56:47) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:57:14) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:57:54) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:57:58) [GET]
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:58:02) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:58:07) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:58:20) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:58:24) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:58:29) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:58:33) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:58:48) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:58:56) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:59:00) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:59:05) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:59:08) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:59:14) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 60ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 20:59:55) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2011-12-06 20:59:59) [GET]
+Rendering template within layouts/application
+Rendering projects/new
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/projects/new]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:00:03) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:00:04) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:00:46) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:00:50) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:00:57) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:01:01) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:01:13) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:02:06) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:02:14) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:05:42) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 64ms (View: 61, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:05:51) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:05:53) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:06:28) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:06:42) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 63ms (View: 60, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:07:07) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:07:10) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:07:42) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:07:53) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 63ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:08:06) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:08:12) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:08:18) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:09:01) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:09:07) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#edit (for 127.0.0.1 at 2011-12-06 21:09:14) [GET]
+  Parameters: {"id"=>"20"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 20) [0m
+Rendering template within layouts/application
+Rendering projects/edit
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/projects/20/edit]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2011-12-06 21:09:22) [GET]
+  Parameters: {"id"=>"20"}
+  [4;36;1mProject Load (0.1ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 20) [0m
+Rendering template within layouts/application
+Rendering projects/show
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/projects/20]
+
+
+Processing ProjectsController#edit (for 127.0.0.1 at 2011-12-06 21:09:25) [GET]
+  Parameters: {"id"=>"20"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 20) [0m
+Rendering template within layouts/application
+Rendering projects/edit
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/projects/20/edit]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:11:30) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#edit (for 127.0.0.1 at 2011-12-06 21:11:32) [GET]
+  Parameters: {"id"=>"20"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 20) [0m
+Rendering template within layouts/application
+Rendering projects/edit
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/projects/20/edit]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:11:58) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:12:50) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#edit (for 127.0.0.1 at 2011-12-06 21:12:55) [GET]
+  Parameters: {"id"=>"20"}
+  [4;36;1mProject Load (0.1ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 20) [0m
+Rendering template within layouts/application
+Rendering projects/edit
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/projects/20/edit]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:13:06) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:13:08) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:13:14) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:13:15) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:13:18) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:13:27) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:13:28) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:13:35) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:13:36) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (50.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 63ms (View: 60, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:13:39) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:13:40) [GET]
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:13:40) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#edit (for 127.0.0.1 at 2011-12-06 21:13:46) [GET]
+  Parameters: {"id"=>"20"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 20) [0m
+Rendering template within layouts/application
+Rendering projects/edit
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 65ms (View: 61, DB: 0) | 200 OK [http://localhost/projects/20/edit]
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2011-12-06 21:14:18) [GET]
+Rendering template within layouts/application
+Rendering projects/new
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/projects/new]
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2011-12-06 21:14:59) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "project"=>{"artwork"=>#<File:/var/folders/jl/jlt45vcOErSLYLWms0wqRnwSFVw/-Tmp-/RackMultipart20111206-1733-zjyx0q-0>, "title"=>"The Catch", "description"=>"This action scene depicts the heated excitement of Super Bowl XLIV in South Florida while playing up the NFL slogan, “Own the Moment”."}}
+  [4;36;1mProject Create (0.7ms)[0m   [0;1mINSERT INTO "projects" ("created_at", "title", "artwork_content_type", "updated_at", "artwork_updated_at", "artwork_file_name", "artwork_file_size", "description", "status") VALUES('2011-12-07 03:14:59', 'The Catch', 'image/jpeg', '2011-12-07 03:14:59', '2011-12-07 03:14:59', 'catch.jpg', 98143, 'This action scene depicts the heated excitement of Super Bowl XLIV in South Florida while playing up the NFL slogan, “Own the Moment”.', 'active')[0m
+Redirected to http://localhost:3000/projects/22
+Completed in 226ms (DB: 1) | 302 Found [http://localhost/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2011-12-06 21:14:59) [GET]
+  Parameters: {"id"=>"22"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 22) [0m
+Rendering template within layouts/application
+Rendering projects/show
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/projects/22]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:15:45) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:15:47) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:16:46) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:16:54) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:16:59) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#edit (for 127.0.0.1 at 2011-12-06 21:17:06) [GET]
+  Parameters: {"id"=>"20"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 20) [0m
+Rendering template within layouts/application
+Rendering projects/edit
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/projects/20/edit]
+
+
+Processing ProjectsController#edit (for 127.0.0.1 at 2011-12-06 21:17:09) [GET]
+  Parameters: {"id"=>"22"}
+  [4;36;1mProject Load (0.1ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 22) [0m
+Rendering template within layouts/application
+Rendering projects/edit
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/projects/22/edit]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:17:14) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2011-12-06 21:17:47) [GET]
+Rendering template within layouts/application
+Rendering projects/new
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/projects/new]
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2011-12-06 21:18:05) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "project"=>{"artwork"=>#<File:/var/folders/jl/jlt45vcOErSLYLWms0wqRnwSFVw/-Tmp-/RackMultipart20111206-1733-1uysih5-0>, "title"=>"I-35 Showdown", "description"=>"This match up graphic highlights the proximity of two NBA teams located on Interstate 35. It was designed as part of an inaugural season series celebrating the Oklahoma City Thunder’s first season as a NBA franchise."}}
+  [4;36;1mProject Create (0.3ms)[0m   [0;1mINSERT INTO "projects" ("created_at", "title", "artwork_content_type", "updated_at", "artwork_updated_at", "artwork_file_name", "artwork_file_size", "description", "status") VALUES('2011-12-07 03:18:05', 'I-35 Showdown', 'image/jpeg', '2011-12-07 03:18:05', '2011-12-07 03:18:05', 'i35.jpg', 58184, 'This match up graphic highlights the proximity of two NBA teams located on Interstate 35. It was designed as part of an inaugural season series celebrating the Oklahoma City Thunder’s first season as a NBA franchise.', 'active')[0m
+Redirected to http://localhost:3000/projects/23
+Completed in 134ms (DB: 0) | 302 Found [http://localhost/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2011-12-06 21:18:05) [GET]
+  Parameters: {"id"=>"23"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 23) [0m
+Rendering template within layouts/application
+Rendering projects/show
+Rendered layouts/_header (1.8ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/projects/23]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:18:09) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:18:34) [GET]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:18:51) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:19:22) [GET]
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2011-12-06 21:19:45) [GET]
+Rendering template within layouts/application
+Rendering projects/new
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/projects/new]
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2011-12-06 21:20:00) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "project"=>{"artwork"=>#<File:/var/folders/jl/jlt45vcOErSLYLWms0wqRnwSFVw/-Tmp-/RackMultipart20111206-1733-yoo9yj-0>, "title"=>"Trading Card", "description"=>"This Super Bowl XLIV graphic replicates the feel of a vintage football trading card. The kicker featured in this design extends beyond the card’s edges, preventing this one from being too “in-the-box”."}}
+  [4;36;1mProject Create (0.3ms)[0m   [0;1mINSERT INTO "projects" ("created_at", "title", "artwork_content_type", "updated_at", "artwork_updated_at", "artwork_file_name", "artwork_file_size", "description", "status") VALUES('2011-12-07 03:20:00', 'Trading Card', 'image/jpeg', '2011-12-07 03:20:00', '2011-12-07 03:20:00', 'trading.jpg', 119905, 'This Super Bowl XLIV graphic replicates the feel of a vintage football trading card. The kicker featured in this design extends beyond the card’s edges, preventing this one from being too “in-the-box”.', 'active')[0m
+Redirected to http://localhost:3000/projects/24
+Completed in 142ms (DB: 0) | 302 Found [http://localhost/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2011-12-06 21:20:00) [GET]
+  Parameters: {"id"=>"24"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 24) [0m
+Rendering template within layouts/application
+Rendering projects/show
+Rendered layouts/_header (1.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/projects/24]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:20:02) [GET]
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2011-12-06 21:20:30) [GET]
+Rendering template within layouts/application
+Rendering projects/new
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/projects/new]
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2011-12-06 21:20:44) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "project"=>{"artwork"=>#<File:/var/folders/jl/jlt45vcOErSLYLWms0wqRnwSFVw/-Tmp-/RackMultipart20111206-1733-12zasbi-0>, "title"=>"Go Green", "description"=>"An organically stylized rendering of the typeface used in Reebok’s new wordmark. Brown branches and leaf-like brush strokes play up Reebok’s “Go Green” initiative."}}
+  [4;35;1mProject Create (0.6ms)[0m   [0mINSERT INTO "projects" ("created_at", "title", "artwork_content_type", "updated_at", "artwork_updated_at", "artwork_file_name", "artwork_file_size", "description", "status") VALUES('2011-12-07 03:20:44', 'Go Green', 'image/jpeg', '2011-12-07 03:20:44', '2011-12-07 03:20:44', 'green.jpg', 46923, 'An organically stylized rendering of the typeface used in Reebok’s new wordmark. Brown branches and leaf-like brush strokes play up Reebok’s “Go Green” initiative.', 'active')[0m
+Redirected to http://localhost:3000/projects/25
+Completed in 128ms (DB: 1) | 302 Found [http://localhost/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2011-12-06 21:20:44) [GET]
+  Parameters: {"id"=>"25"}
+  [4;36;1mProject Load (0.1ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 25) [0m
+Rendering template within layouts/application
+Rendering projects/show
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/projects/25]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:20:47) [GET]
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2011-12-06 21:21:03) [GET]
+Rendering template within layouts/application
+Rendering projects/new
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/projects/new]
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2011-12-06 21:21:15) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "project"=>{"artwork"=>#<File:/var/folders/jl/jlt45vcOErSLYLWms0wqRnwSFVw/-Tmp-/RackMultipart20111206-1733-1eugfio-0>, "title"=>"Cavs Beat LA", "description"=>"This modified Cleveland Cavaliers logo emphasizes the significance of a potential match up between two of the NBA’s most exciting teams. A small team logo is included to cure the graphic, in addition to the 2009 Finals logo. These elements help balance the composition while providing context for the event."}}
+  [4;36;1mProject Create (0.3ms)[0m   [0;1mINSERT INTO "projects" ("created_at", "title", "artwork_content_type", "updated_at", "artwork_updated_at", "artwork_file_name", "artwork_file_size", "description", "status") VALUES('2011-12-07 03:21:15', 'Cavs Beat LA', 'image/jpeg', '2011-12-07 03:21:15', '2011-12-07 03:21:15', 'cavs.jpg', 60767, 'This modified Cleveland Cavaliers logo emphasizes the significance of a potential match up between two of the NBA’s most exciting teams. A small team logo is included to cure the graphic, in addition to the 2009 Finals logo. These elements help balance the composition while providing context for the event.', 'active')[0m
+Redirected to http://localhost:3000/projects/26
+Completed in 139ms (DB: 0) | 302 Found [http://localhost/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2011-12-06 21:21:15) [GET]
+  Parameters: {"id"=>"26"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Rendering template within layouts/application
+Rendering projects/show
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/projects/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:21:19) [GET]
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.8ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2011-12-06 21:21:31) [GET]
+Rendering template within layouts/application
+Rendering projects/new
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/projects/new]
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2011-12-06 21:21:45) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "project"=>{"artwork"=>#<File:/var/folders/jl/jlt45vcOErSLYLWms0wqRnwSFVw/-Tmp-/RackMultipart20111206-1733-mtouf9-0>, "title"=>"Magic Beat LA", "description"=>"The phrase “Beat LA” has been prevalent in recent years because of the Laker’s dominance. This execution of the phrase uses the same typeface found in the primary logo for the Orlando Magic. This graphic highlights the importance of the match up and what is at stake, the Larry O’Brien Championship trophy."}}
+  [4;35;1mProject Create (0.3ms)[0m   [0mINSERT INTO "projects" ("created_at", "title", "artwork_content_type", "updated_at", "artwork_updated_at", "artwork_file_name", "artwork_file_size", "description", "status") VALUES('2011-12-07 03:21:45', 'Magic Beat LA', 'image/jpeg', '2011-12-07 03:21:45', '2011-12-07 03:21:45', 'magic.jpg', 56707, 'The phrase “Beat LA” has been prevalent in recent years because of the Laker’s dominance. This execution of the phrase uses the same typeface found in the primary logo for the Orlando Magic. This graphic highlights the importance of the match up and what is at stake, the Larry O’Brien Championship trophy.', 'active')[0m
+Redirected to http://localhost:3000/projects/27
+Completed in 126ms (DB: 0) | 302 Found [http://localhost/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2011-12-06 21:21:45) [GET]
+  Parameters: {"id"=>"27"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 27) [0m
+Rendering template within layouts/application
+Rendering projects/show
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/projects/27]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:21:48) [GET]
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:21:59) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 18ms (View: 14, DB: 1) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:22:09) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:22:17) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 21ms (View: 17, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2011-12-06 21:22:35) [GET]
+Rendering template within layouts/application
+Rendering projects/new
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/projects/new]
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2011-12-06 21:22:47) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "project"=>{"artwork"=>#<File:/var/folders/jl/jlt45vcOErSLYLWms0wqRnwSFVw/-Tmp-/RackMultipart20111206-1733-bkfunb-0>, "title"=>"Goal Post Stripe", "description"=>"A discovery piece that features a key element of the Super Bowl XLIV logo, the goal post. The digital feel created by the goal post pattern adds visual interest to this graphic."}}
+  [4;35;1mProject Create (0.3ms)[0m   [0mINSERT INTO "projects" ("created_at", "title", "artwork_content_type", "updated_at", "artwork_updated_at", "artwork_file_name", "artwork_file_size", "description", "status") VALUES('2011-12-07 03:22:48', 'Goal Post Stripe', 'image/jpeg', '2011-12-07 03:22:48', '2011-12-07 03:22:47', 'goalpost.jpg', 38028, 'A discovery piece that features a key element of the Super Bowl XLIV logo, the goal post. The digital feel created by the goal post pattern adds visual interest to this graphic.', 'active')[0m
+Redirected to http://localhost:3000/projects/28
+Completed in 121ms (DB: 0) | 302 Found [http://localhost/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2011-12-06 21:22:48) [GET]
+  Parameters: {"id"=>"28"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 28) [0m
+Rendering template within layouts/application
+Rendering projects/show
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/projects/28]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:22:50) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 20ms (View: 16, DB: 1) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:23:38) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 20ms (View: 16, DB: 1) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:23:46) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Redirected to http://localhost:3000/projects
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/projects/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:23:46) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 14, DB: 0) | 200 OK [http://localhost/projects]
+  [4;36;1mProject Load (0.1ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:26:18) [GET]
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:26:24) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Redirected to http://localhost:3000/projects
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/projects/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:26:24) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 78ms (View: 75, DB: 0) | 200 OK [http://localhost/projects]
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:26:52) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.5ms)
+Completed in 17ms (View: 13, DB: 1) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:26:55) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Redirected to http://localhost:3000/projects
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/projects/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:26:55) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:27:29) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (4.8ms)
+Rendered layouts/_footer (2.2ms)
+Completed in 62ms (View: 55, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:27:33) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Redirected to http://localhost:3000/projects
+Completed in 59ms (DB: 0) | 302 Found [http://localhost/projects/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:27:33) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects]
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-12-06 21:28:46) [GET]
+
+NoMethodError (undefined method `attr_accessible' for ProjectsController:Class):
+  app/controllers/projects_controller.rb:4
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (22.1ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:28:53) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:32:01) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (4.8ms)
+Completed in 75ms (View: 71, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:32:05) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Redirected to http://localhost:3000/projects
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/projects/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:32:05) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 14, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:32:51) [GET]
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+
+ActionView::TemplateError (undefined method `delete_project_path' for #<ActionView::Base:0x103d23710>) on line #20 of app/views/projects/index.html.haml:
+17:             #admin_controls
+18:               = link_to 'Edit', edit_project_path(project)
+19:               |
+20:               = link_to 'Delete', delete_project_path(project), :confirm => "Are you sure you want to delete this project?"
+
+    app/views/projects/index.html.haml:20:in `_run_haml_app47views47projects47index46html46haml'
+    app/views/projects/index.html.haml:7:in `each'
+    app/views/projects/index.html.haml:7:in `_run_haml_app47views47projects47index46html46haml'
+    app/views/projects/index.html.haml:6:in `_run_haml_app47views47projects47index46html46haml'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (30.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:34:06) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 22ms (View: 18, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:34:09) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Redirected to http://localhost:3000/projects
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/projects/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:34:09) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 14, DB: 1) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:34:28) [GET]
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:34:32) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Redirected to http://localhost:3000/projects
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/projects/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:34:32) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:34:42) [GET]
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:34:44) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+
+ArgumentError (wrong number of arguments (2 for 1)):
+  app/controllers/projects_controller.rb:45:in `update_attributes'
+  app/controllers/projects_controller.rb:45:in `destroy'
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (80.0ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:35:02) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:35:06) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Redirected to http://localhost:3000/projects
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/projects/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:35:06) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 14, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:35:16) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 1) | 200 OK [http://localhost/projects]
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:36:16) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;36;1mProject Load (0.1ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Redirected to http://localhost:3000/projects
+Completed in 5ms (DB: 0) | 302 Found [http://localhost/projects/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:36:16) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:37:44) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:37:47) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Redirected to http://localhost:3000/projects
+Completed in 5ms (DB: 0) | 302 Found [http://localhost/projects/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:37:47) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:38:10) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Redirected to http://localhost:3000/projects
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/projects/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:38:10) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:39:32) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 14, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:39:35) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;36;1mProject Load (0.1ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+
+NoMethodError (undefined method `soft_delete' for #<Project:0x103ac89c0>):
+  app/controllers/projects_controller.rb:43:in `destroy'
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (81.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:40:04) [GET]
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:40:07) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;36;1mProject Load (0.1ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+
+NoMethodError (undefined method `soft_delete' for #<Project:0x103ce3480>):
+  app/controllers/projects_controller.rb:43:in `destroy'
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (23.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:40:27) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:40:30) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;36;1mProject Load (0.1ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+
+NoMethodError (undefined method `soft_delete' for #<Project:0x103f3fd50>):
+  app/controllers/projects_controller.rb:43:in `destroy'
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (23.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:40:53) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (5.1ms)
+Rendered layouts/_footer (1.9ms)
+Completed in 62ms (View: 55, DB: 1) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:40:58) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+
+NoMethodError (undefined method `soft_delete' for #<Project:0x103bcd230>):
+  app/controllers/projects_controller.rb:43:in `destroy'
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (23.8ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:41:49) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:41:53) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.update_attribute):
+  app/models/project.rb:15:in `soft_delete'
+  app/controllers/projects_controller.rb:43:in `destroy'
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (22.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:43:19) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 74ms (View: 70, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:43:21) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Redirected to http://localhost:3000/projects
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/projects/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:43:21) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 14, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:43:22) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:43:41) [GET]
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:43:44) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Redirected to http://localhost:3000/projects
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/projects/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:43:44) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 14, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:45:17) [GET]
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:45:20) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+
+NoMethodError (undefined method `update_attribute!' for #<Project:0x103f7afe0>):
+  app/models/project.rb:16:in `soft_delete'
+  app/controllers/projects_controller.rb:43:in `destroy'
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (23.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:46:28) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (4.9ms)
+Rendered layouts/_footer (2.1ms)
+Completed in 63ms (View: 56, DB: 1) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:46:31) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Redirected to http://localhost:3000/projects
+Completed in 60ms (DB: 0) | 302 Found [http://localhost/projects/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:46:31) [GET]
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 14, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:50:23) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:50:26) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;36;1mProject Load (0.1ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Redirected to http://localhost:3000/projects
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/projects/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:50:26) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:50:52) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 72ms (View: 69, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:50:59) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+
+ActionView::MissingTemplate (Missing template projects/destroy.erb in view path app/views):
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:55:51) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects/]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:55:55) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+
+ActionView::MissingTemplate (Missing template projects/destroy.erb in view path app/views):
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:56:15) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects/]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:56:18) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+
+ActionView::MissingTemplate (Missing template projects/destroy.erb in view path app/views):
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:56:49) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects/]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:56:51) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+
+ActionView::MissingTemplate (Missing template projects/destroy.erb in view path app/views):
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:56:54) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:57:00) [GET]
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects/]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:57:03) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;36;1mProject Load (0.1ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+
+ActionView::MissingTemplate (Missing template projects/destroy.erb in view path app/views):
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 21:57:31) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects/]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 21:57:34) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;36;1mProject Load (0.1ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Rendering template within layouts/application
+Rendering projects/show
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/projects/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 22:03:40) [GET]
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 76ms (View: 72, DB: 0) | 200 OK [http://localhost/projects/]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-06 22:03:43) [DELETE]
+  Parameters: {"authenticity_token"=>"aiFHk+AufqC4elkCvhKOPGCOsSTIFolBwmwu3FlLeKw=", "id"=>"26"}
+  [4;36;1mProject Load (0.1ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Redirected to http://localhost:3000/projects
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/projects/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-06 22:03:43) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:24:49) [GET]
+  [4;36;1mProject Load (1.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (5.0ms)
+Rendered layouts/_footer (2.4ms)
+Completed in 80ms (View: 71, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:28:33) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 22ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:28:35) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:30:40) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 21ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2011-12-08 23:30:45) [GET]
+  Parameters: {"id"=>"22"}
+  [4;36;1mProject Load (0.1ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 22) [0m
+Rendering template within layouts/application
+Rendering projects/show
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://localhost/projects/22/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:30:54) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://localhost/projects/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:31:02) [GET]
+  [4;36;1mProject Load (0.6ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 16ms (View: 12, DB: 1) | 200 OK [http://localhost/projects/]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2011-12-08 23:31:06) [GET]
+  Parameters: {"id"=>"26"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Rendering template within layouts/application
+Rendering projects/show
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/projects/26/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:31:59) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (4.6ms)
+Rendered layouts/_footer (1.9ms)
+Completed in 60ms (View: 54, DB: 1) | 200 OK [http://localhost/projects/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:32:00) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://localhost/projects/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:32:02) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/projects/]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2011-12-08 23:32:18) [GET]
+  Parameters: {"id"=>"26"}
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Rendering template within layouts/application
+Rendering projects/show
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/projects/26/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:32:23) [GET]
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+
+ActionView::TemplateError (undefined method `deactivate_oject_path' for #<ActionView::Base:0x103ca1aa8>) on line #20 of app/views/projects/index.html.haml:
+17:             #admin_controls
+18:               = link_to 'Edit', edit_project_path(project)
+19:               |
+20:               = link_to 'Delete', deactivate_oject_path(project), :confirm => "Are you sure you want to delete this project?"
+
+    app/views/projects/index.html.haml:20:in `_run_haml_app47views47projects47index46html46haml'
+    app/views/projects/index.html.haml:7:in `each'
+    app/views/projects/index.html.haml:7:in `_run_haml_app47views47projects47index46html46haml'
+    app/views/projects/index.html.haml:6:in `_run_haml_app47views47projects47index46html46haml'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (90.1ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:32:51) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 21ms (View: 18, DB: 0) | 200 OK [http://localhost/projects/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:32:52) [GET]
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://localhost/projects/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:32:52) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/projects/]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2011-12-08 23:32:55) [GET]
+  Parameters: {"id"=>"24"}
+  [4;36;1mProject Load (0.1ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 24) [0m
+Rendering template within layouts/application
+Rendering projects/show
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/projects/24/]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2011-12-08 23:33:18) [GET]
+  Parameters: {"id"=>"24"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 24) [0m
+Rendering template within layouts/application
+Rendering projects/show
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/projects/24/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:33:20) [GET]
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+
+ActionView::TemplateError (undefined method `te_project_path' for #<ActionView::Base:0x103b90d58>) on line #20 of app/views/projects/index.html.haml:
+17:             #admin_controls
+18:               = link_to 'Edit', edit_project_path(project)
+19:               |
+20:               = link_to 'Delete', te_project_path(project), :confirm => "Are you sure you want to delete this project?"
+
+    app/views/projects/index.html.haml:20:in `_run_haml_app47views47projects47index46html46haml'
+    app/views/projects/index.html.haml:7:in `each'
+    app/views/projects/index.html.haml:7:in `_run_haml_app47views47projects47index46html46haml'
+    app/views/projects/index.html.haml:6:in `_run_haml_app47views47projects47index46html46haml'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (32.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:33:23) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 21ms (View: 17, DB: 0) | 200 OK [http://localhost/projects/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:33:29) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 19ms (View: 15, DB: 0) | 200 OK [http://localhost/projects/]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2011-12-08 23:33:31) [GET]
+  Parameters: {"id"=>"25"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 25) [0m
+Rendering template within layouts/application
+Rendering projects/show
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/projects/25/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:33:42) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 19ms (View: 16, DB: 0) | 200 OK [http://localhost/projects/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:33:45) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 71ms (View: 12, DB: 1) | 200 OK [http://localhost/projects/]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2011-12-08 23:33:49) [GET]
+  Parameters: {"id"=>"26"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Rendering template within layouts/application
+Rendering projects/show
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/projects/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:33:58) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://localhost/projects/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:33:59) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects/]
+
+
+Processing ProjectsController#deactivate (for 127.0.0.1 at 2011-12-08 23:34:04) [GET]
+  Parameters: {"id"=>"26"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Redirected to http://localhost:3000/projects
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/projects/deactivate/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:34:04) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:34:28) [GET]
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#deactivate (for 127.0.0.1 at 2011-12-08 23:34:32) [GET]
+  Parameters: {"id"=>"26"}
+  [4;36;1mProject Load (0.1ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Redirected to http://localhost:3000/projects
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/projects/deactivate/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:34:32) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:34:33) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#deactivate (for 127.0.0.1 at 2011-12-08 23:35:14) [GET]
+  Parameters: {"id"=>"22"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 22) [0m
+Redirected to http://localhost:3000/projects
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/projects/deactivate/22]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:35:14) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 74ms (View: 70, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#deactivate (for 127.0.0.1 at 2011-12-08 23:35:26) [GET]
+  Parameters: {"id"=>"23"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 23) [0m
+
+NoMethodError (undefined method `update_attribute!' for #<Project:0x10408af70>):
+  app/controllers/projects_controller.rb:46:in `deactivate'
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (23.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:35:49) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (4.8ms)
+Rendered layouts/_footer (2.1ms)
+Completed in 60ms (View: 54, DB: 1) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#deactivate (for 127.0.0.1 at 2011-12-08 23:35:54) [GET]
+  Parameters: {"id"=>"22"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 22) [0m
+
+NoMethodError (undefined method `update_attribute!' for #<Project:0x103a1cd28>):
+  app/controllers/projects_controller.rb:46:in `deactivate'
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (24.1ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:36:04) [GET]
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#deactivate (for 127.0.0.1 at 2011-12-08 23:36:11) [GET]
+  Parameters: {"id"=>"26"}
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+Redirected to http://localhost:3000/projects
+Completed in 5ms (DB: 0) | 302 Found [http://localhost/projects/deactivate/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:36:11) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 16ms (View: 13, DB: 1) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:40:08) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#deactivate (for 127.0.0.1 at 2011-12-08 23:40:12) [GET]
+  Parameters: {"id"=>"26"}
+  [4;36;1mProject Load (0.1ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+  [4;35;1mProject Update (0.3ms)[0m   [0mUPDATE "projects" SET "updated_at" = '2011-12-09 05:40:12', "status" = 'deleted' WHERE "id" = 26[0m
+Redirected to http://localhost:3000/projects
+Completed in 17ms (DB: 0) | 302 Found [http://localhost/projects/deactivate/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:40:12) [GET]
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/projects]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" [0m
+  [4;35;1mProject Load (0.7ms)[0m   [0mSELECT * FROM "projects" [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'deleted') [0m
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'deleted') [0m
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'deleted') [0m
+  [4;36;1mProject Update (0.2ms)[0m   [0;1mUPDATE "projects" SET "updated_at" = '2011-12-09 05:41:53', "status" = 'active' WHERE "id" = 21[0m
+  [4;35;1mProject Update (0.2ms)[0m   [0mUPDATE "projects" SET "updated_at" = '2011-12-09 05:41:53', "status" = 'active' WHERE "id" = 26[0m
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:41:55) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 14, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:42:31) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 22ms (View: 19, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-08 23:42:34) [DELETE]
+  Parameters: {"authenticity_token"=>"usPgPL8abR6mVYfPM4yv2RMO+U63kzzkoVo4jpSuA0Q=", "id"=>"22"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 22) [0m
+  [4;36;1mProject Update (0.2ms)[0m   [0;1mUPDATE "projects" SET "updated_at" = '2011-12-09 05:42:34', "status" = 'deleted' WHERE "id" = 22[0m
+Redirected to http://localhost:3000/projects
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/projects/22]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:42:34) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:44:11) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 73ms (View: 70, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#destroy (for 127.0.0.1 at 2011-12-08 23:44:15) [DELETE]
+  Parameters: {"authenticity_token"=>"usPgPL8abR6mVYfPM4yv2RMO+U63kzzkoVo4jpSuA0Q=", "id"=>"26"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 26) [0m
+  [4;36;1mProject Update (0.2ms)[0m   [0;1mUPDATE "projects" SET "updated_at" = '2011-12-09 05:44:15', "status" = 'deleted' WHERE "id" = 26[0m
+Redirected to http://localhost:3000/projects
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/projects/26]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:44:15) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2011-12-08 23:44:34) [GET]
+Rendering template within layouts/application
+Rendering projects/new
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/projects/new]
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2011-12-08 23:45:30) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"usPgPL8abR6mVYfPM4yv2RMO+U63kzzkoVo4jpSuA0Q=", "project"=>{"artwork"=>#<File:/var/folders/jl/jlt45vcOErSLYLWms0wqRnwSFVw/-Tmp-/RackMultipart20111208-13981-s1g1kn-0>, "title"=>"Keystone Koldwar", "description"=>"Russian inspired design pitting two NHL rivals against each other in a dueling layout. The allusion to the Cold War and the employment of two helmets adds emphasis to the war theme. The Keystone shaped background element ties into this heated rivalry in the state of Pennsylvania."}}
+WARNING: Can't mass-assign these protected attributes: artwork, title, description
+Rendering template within layouts/application
+Rendering projects/new
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2011-12-08 23:45:46) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"usPgPL8abR6mVYfPM4yv2RMO+U63kzzkoVo4jpSuA0Q=", "project"=>{"artwork"=>#<File:/var/folders/jl/jlt45vcOErSLYLWms0wqRnwSFVw/-Tmp-/RackMultipart20111208-13981-6ay5cn-0>, "title"=>"Keystone Koldwar", "description"=>"Russian inspired design pitting two NHL rivals against each other in a dueling layout. The allusion to the Cold War and the employment of two helmets adds emphasis to the war theme. The Keystone shaped background element ties into this heated rivalry in the state of Pennsylvania."}}
+WARNING: Can't mass-assign these protected attributes: artwork, title, description
+Rendering template within layouts/application
+Rendering projects/new
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 68ms (View: 63, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2011-12-08 23:47:20) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"usPgPL8abR6mVYfPM4yv2RMO+U63kzzkoVo4jpSuA0Q=", "project"=>{"artwork"=>#<File:/var/folders/jl/jlt45vcOErSLYLWms0wqRnwSFVw/-Tmp-/RackMultipart20111208-13981-lc9vpj-0>, "title"=>"Keystone Koldwar", "description"=>"Russian inspired design pitting two NHL rivals against each other in a dueling layout. The allusion to the Cold War and the employment of two helmets adds emphasis to the war theme. The Keystone shaped background element ties into this heated rivalry in the state of Pennsylvania."}}
+  [4;36;1mProject Create (0.3ms)[0m   [0;1mINSERT INTO "projects" ("created_at", "title", "artwork_content_type", "updated_at", "artwork_updated_at", "artwork_file_name", "artwork_file_size", "description", "status") VALUES('2011-12-09 05:47:20', 'Keystone Koldwar', 'image/jpeg', '2011-12-09 05:47:20', '2011-12-09 05:47:20', 'keystone.jpg', 78417, 'Russian inspired design pitting two NHL rivals against each other in a dueling layout. The allusion to the Cold War and the employment of two helmets adds emphasis to the war theme. The Keystone shaped background element ties into this heated rivalry in the state of Pennsylvania.', 'active')[0m
+Redirected to http://localhost:3000/projects/29
+Completed in 206ms (DB: 0) | 302 Found [http://localhost/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2011-12-08 23:47:20) [GET]
+  Parameters: {"id"=>"29"}
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 29) [0m
+Rendering template within layouts/application
+Rendering projects/show
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/projects/29]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-08 23:47:23) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 20ms (View: 15, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-09 14:44:43) [GET]
+  [4;36;1mProject Load (1.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (6.5ms)
+Rendered layouts/_footer (3.5ms)
+Completed in 90ms (View: 80, DB: 1) | 200 OK [http://localhost/]
