@@ -10,8 +10,9 @@
 %p
   %strong Artwork (Thumb)
   =image_tag(@project.artwork.url(:thumb_on))
+
 %p
-  %strong Artwork (Thumb, Off)
+  %strong Artwork (Thumb off)
   =image_tag(@project.artwork.url(:thumb_off))
 
 = link_to 'Edit', edit_project_path(@project) | 

@@ -22,11 +22,11 @@ ActiveRecord::Schema.define(:version => 20111206053841) do
     t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "status"
     t.string   "artwork_file_name"
     t.string   "artwork_content_type"
     t.integer  "artwork_file_size"
     t.datetime "artwork_updated_at"
-    t.string   "status"
   end
 
   create_table "users", :force => true do |t|

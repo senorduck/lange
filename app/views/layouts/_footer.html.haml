@@ -6,6 +6,7 @@
 :javascript
   $(document).ready(function() {
     narf();work();});
+= javascript_include_tag("jquery.Jcrop.min.js")
 :javascript
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-18117705-1']);
@@ -15,3 +16,19 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
+- if admin_login?
+  :javascript
+    jQuery(function(){
+      jQuery("#cropbox").Jcrop({
+        minSize: [125, 168],
+        aspectRatio: .74404,
+        setSelect: [0,0,125,168],
+        onSelect: captureCoords
+      });
+    });
+    function captureCoords(c){
+      $('#project_x1').val(c.x);
+      $('#project_y1').val(c.y);
+      $('#project_width').val(c.w);
+      $('#project_height').val(c.h);
+    }

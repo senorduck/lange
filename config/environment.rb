@@ -11,5 +11,6 @@ Rails::Initializer.run do |config|
   config.gem "sass"
   config.gem "paperclip", :version => "2.4"
   config.time_zone = 'UTC'
+  config.gem "image_science"
   
 end

@@ -10,4 +10,6 @@ ActionController::Routing::Routes.draw do |map|
   
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
+  
+  map.crop_image '/project/crop/:id', :controller => 'projects', :action => 'crop'
 end

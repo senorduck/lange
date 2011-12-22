@@ -1,3 +1,4 @@
+%h2 New Project
 - form_for(@project, :html => { :multipart => true }) do |f|
   = f.error_messages
   %p
@@ -5,9 +6,9 @@
     = f.text_field :title
   %p
     = f.label :description
-    = f.text_area :description
+    = f.text_area :description, :rows => 10, :cols => 50
   %p
-    = f.label :artwork
+    = f.label :artwork 
     = f.file_field :artwork
   %p
     = f.submit 'Create'
