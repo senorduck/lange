@@ -18,16 +18,24 @@ class Project < ActiveRecord::Base
    y1 = attr[:y1].to_i
    x2 = x1 + attr[:width].to_i
    y2 = y1 + attr[:height].to_i
-   ImageScience.with_image(self.artwork.path) do |img|
-    img.with_crop(x1,y1,x2,y2) do |thumb|
-      thumb.save self.artwork.path
-    end
-   end
+   coords = {:x1 => x1, :y1 => y1, :x2 => x2, :y2 => y2}
+   thumbify self.artwork.path(:thumb_on), coords
+   thumbify self.artwork.path(:thumb_off), coords
    self.save
 
   end
 
   private
+
+  def thumbify(image, coords)
+    ImageScience.with_image(image) do |img|
+      img.with_crop(coords[:x1],coords[:y1],coords[:x2],coords[:y2]) do |cropped_img|
+        cropped_img.resize(125,168) do |final_image|
+          final_image.save image
+        end
+      end
+    end
+  end
 
   def set_active_status
     self.status = "active"
