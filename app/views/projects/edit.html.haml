@@ -10,6 +10,7 @@
     = image_tag(@project.artwork.url)
     = f.label :artwork
     = f.file_field :artwork
+    = link_to("Re-Crop Thumbnail", crop_project_path(@project))
   %p
     = f.submit 'Update'
 

@@ -1,8 +1,7 @@
 #work
   - if admin_login?
     %span.admin_panel
-      = link_to('New Project', new_project_path, :class => "lg_link")
-      = link_to('View Deleted Projects', deleted_projects_path, :class => "lg_link")
+      = link_to('View Active Projects', projects_path, :class => "lg_link")
   - @projects.in_groups_of(6) do |project_group|
     .row
       - project_group.each do |project|
@@ -17,9 +16,8 @@
               = image_tag(project.artwork.url(:thumb_on), :width => 125, :height => 168, :alt => "", :class => "on")
             - if admin_login?
               #admin_controls
-                - if project.status == 'pending'
-                  = link_to 'Publish Changes', publish_project_path(project)
-                  %br
+                = "&quot;#{h(project.title)}&quot;"
+                %br
                 = link_to 'Edit', edit_project_path(project)
                 |
-                = link_to 'Delete', project, :method => :delete, :confirm => "Are you sure you want to delete this project?"
+                = link_to 'Activate', activate_project_path(project)

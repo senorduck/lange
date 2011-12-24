@@ -4,8 +4,4 @@ module ApplicationHelper
     image_name = "bnr_#{@prefix}.jpg"
     image_tag(image_name, :width => 950, :height => 200, :alt => @title, :class => "banner")
   end
-
-  def admin_login?
-    true
-  end
 end

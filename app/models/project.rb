@@ -1,5 +1,6 @@
 class Project < ActiveRecord::Base
   require "image_science"
+
   attr_accessible :status, :title, :description, :artwork, :x1, :y1, :width, :height
   attr_accessor :x1, :y1, :width, :height
   has_attached_file :artwork, :styles => {:thumb_on => { :geometry => "100%" },
@@ -7,9 +8,11 @@ class Project < ActiveRecord::Base
                                          },
                               :convert_options => { :thumb_off => "-colorspace Gray" }
 
-  before_create :set_active_status
+  before_create :set_status
 
-  named_scope :active, :conditions => {:status => "active"}
+  named_scope :visible, :conditions => ['status in (?)', ['active','pending']]
+  named_scope :active, :conditions => { :status => "active" }
+  named_scope :deleted, :conditions => { :status => "deleted" }
 
   validates_presence_of :title, :description
 
@@ -22,7 +25,6 @@ class Project < ActiveRecord::Base
    thumbify self.artwork.path(:thumb_on), coords
    thumbify self.artwork.path(:thumb_off), coords
    self.save
-
   end
 
   private
@@ -37,7 +39,7 @@ class Project < ActiveRecord::Base
     end
   end
 
-  def set_active_status
-    self.status = "active"
+  def set_status
+    self.status = "pending"
   end
 end

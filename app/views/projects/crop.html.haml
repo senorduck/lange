@@ -2,20 +2,12 @@
   %h2 Drag box to crop image thumbnail
   = f.error_messages
   %p
-    = image_tag(@project.artwork.url(:thumb_on), :id => "cropbox")
+    = image_tag(@project.artwork.url, :id => "cropbox")
   .crop_coords
-    %p
-      = f.label 'x1'
-      = f.text_field 'x1', :size => 6
-    %p
-      = f.label 'y1'
-      = f.text_field 'y1', :size => 6
-    %p
-      = f.label 'Width'
-      = f.text_field 'width', :size => 6
-    %p
-      = f.label 'Height'
-      = f.text_field 'height', :size => 6
+    = f.hidden_field 'x1', :size => 6
+    = f.hidden_field 'y1', :size => 6
+    = f.hidden_field 'width', :size => 6
+    = f.hidden_field 'height', :size => 6
     %p
       = f.submit 'Save'
 
