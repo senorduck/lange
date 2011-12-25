@@ -30439,3 +30439,2371 @@ Rendering projects/index
 Rendered layouts/_header (1.1ms)
 Rendered layouts/_footer (0.3ms)
 Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/projects]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mUser Delete all (3.1ms)[0m   [0mDELETE FROM "users" WHERE ("id" IN (1)) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mUser Delete all (3.4ms)[0m   [0mDELETE FROM "users" WHERE ("id" IN (2)) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mProject Load (1.3ms)[0m   [0mSELECT * FROM "projects" [0m
+  [4;36;1mProject Load (1.6ms)[0m   [0;1mSELECT * FROM "projects" [0m
+  [4;35;1mProject Load (1.9ms)[0m   [0mSELECT * FROM "projects" [0m
+  [4;36;1mProject Load (1.6ms)[0m   [0;1mSELECT * FROM "projects" [0m
+  [4;35;1mProject Load (1.8ms)[0m   [0mSELECT * FROM "projects" [0m
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM "projects" LIMIT 1[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" LIMIT 1[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mProject Load (1.6ms)[0m   [0mSELECT * FROM "projects" [0m
+  [4;36;1mProject Load (1.6ms)[0m   [0;1mSELECT * FROM "projects" [0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mProject Load (1.6ms)[0m   [0;1mSELECT * FROM "projects" [0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mProject Load (1.6ms)[0m   [0;1mSELECT * FROM "projects" [0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mProject Load (1.8ms)[0m   [0;1mSELECT * FROM "projects" [0m
+  [4;35;1mProject Delete all (3.6ms)[0m   [0mDELETE FROM "projects" WHERE ("id" IN (47)) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProjects (20111205015237)
+Migrating to CreateAccomplishments (20111205024852)
+Migrating to CreateUsers (20111205055203)
+Migrating to AddArtworkToProject (20111206035218)
+Migrating to AddPasswordToUsers (20111206042252)
+Migrating to AddStatusToProjects (20111206053841)
+Migrating to AddNameUniquenessIndex (20111225024025)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: table users has no column named name: CREATE UNIQUE INDEX "index_users_on_name" ON "users" ("name")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProjects (20111205015237)
+Migrating to CreateAccomplishments (20111205024852)
+Migrating to CreateUsers (20111205055203)
+Migrating to AddArtworkToProject (20111206035218)
+Migrating to AddPasswordToUsers (20111206042252)
+Migrating to AddStatusToProjects (20111206053841)
+Migrating to AddNameUniquenessIndex (20111225024025)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE UNIQUE INDEX "index_users_on_email_address" ON "users" ("email_address")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20111225024025')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("accomplishments")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("projects")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_info('index_users_on_email_address')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProjects (20111205015237)
+Migrating to CreateAccomplishments (20111205024852)
+Migrating to CreateUsers (20111205055203)
+Migrating to AddArtworkToProject (20111206035218)
+Migrating to AddPasswordToUsers (20111206042252)
+Migrating to AddStatusToProjects (20111206053841)
+Migrating to AddNameUniquenessIndex (20111225024025)
+Migrating to AddNameToUsers (20111225024336)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mALTER TABLE "users" ADD "name" varchar(255)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20111225024336')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("accomplishments")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("projects")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_info('index_users_on_email_address')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProjects (20111205015237)
+Migrating to CreateAccomplishments (20111205024852)
+Migrating to CreateUsers (20111205055203)
+Migrating to AddArtworkToProject (20111206035218)
+Migrating to AddPasswordToUsers (20111206042252)
+Migrating to AddStatusToProjects (20111206053841)
+Migrating to AddNameUniquenessIndex (20111225024025)
+Migrating to AddNameToUsers (20111225024336)
+Migrating to ChangePasswordToEncryptedPassword (20111225025524)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email_address" text, "created_at" datetime, "updated_at" datetime, "password" varchar(255), "name" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_info('index_users_on_email_address')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE UNIQUE INDEX "temp_index_altered_users_on_email_address" ON "altered_users" ("email_address")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "users"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email_address" text, "created_at" datetime, "updated_at" datetime, "name" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_users")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_info('temp_index_altered_users_on_email_address')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCREATE UNIQUE INDEX "index_users_on_email_address" ON "users" ("email_address")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDROP TABLE "altered_users"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mALTER TABLE "users" ADD "encrypted_password" varchar(255)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20111225025524')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("accomplishments")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("projects")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_info('index_users_on_email_address')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to ChangePasswordToEncryptedPassword (20111225025524)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email_address" text, "created_at" datetime, "updated_at" datetime, "name" varchar(255), "encrypted_password" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_info('index_users_on_email_address')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE UNIQUE INDEX "temp_index_altered_users_on_email_address" ON "altered_users" ("email_address")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "users"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email_address" text, "created_at" datetime, "updated_at" datetime, "name" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_users")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_info('temp_index_altered_users_on_email_address')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCREATE UNIQUE INDEX "index_users_on_email_address" ON "users" ("email_address")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDROP TABLE "altered_users"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mALTER TABLE "users" ADD "password" varchar(255)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20111225025524'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("accomplishments")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("projects")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_info('index_users_on_email_address')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProjects (20111205015237)
+Migrating to CreateAccomplishments (20111205024852)
+Migrating to CreateUsers (20111205055203)
+Migrating to AddArtworkToProject (20111206035218)
+Migrating to AddPasswordToUsers (20111206042252)
+Migrating to AddStatusToProjects (20111206053841)
+Migrating to AddNameUniquenessIndex (20111225024025)
+Migrating to AddNameToUsers (20111225024336)
+Migrating to ChangePasswordToEncryptedPassword (20111225025524)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email_address" text, "created_at" datetime, "updated_at" datetime, "name" varchar(255), "password" varchar(255)) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_info('index_users_on_email_address')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE UNIQUE INDEX "temp_index_altered_users_on_email_address" ON "altered_users" ("email_address")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "users"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email_address" text, "created_at" datetime, "updated_at" datetime, "name" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_users")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_info('temp_index_altered_users_on_email_address')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCREATE UNIQUE INDEX "index_users_on_email_address" ON "users" ("email_address")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mDROP TABLE "altered_users"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mALTER TABLE "users" ADD "encrypted_password" varchar(255)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mALTER TABLE "users" ADD "salt" varchar(255)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20111225025524')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("accomplishments")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("projects")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("users")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_info('index_users_on_email_address')[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" [0m
+WARNING: Can't mass-assign these protected attributes: email_address
+  [4;35;1mUser Create (0.0ms)[0m   [0mSQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("created_at", "updated_at", "email_address", "password") VALUES('2011-12-25 03:11:01', '2011-12-25 03:11:01', NULL, NULL)[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2011-12-24 22:14:23) [GET]
+Rendering template within layouts/application
+Rendering users/new
+
+ActionView::TemplateError (undefined method `password' for #<User:0x103fbb9a0>) on line #14 of app/views/users/new.html.haml:
+11:     = f.text_field :email_address
+12:   %p
+13:     = f.label :password
+14:     = f.password_field :password
+15:   %p
+16:     = f.label :password_confirmation
+17:     = f.password_field :password_confirmation
+
+    app/views/users/new.html.haml:14:in `_run_haml_app47views47users47new46html46haml'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:243:in `call'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:243:in `form_for'
+    haml (3.1.4) lib/haml/helpers.rb:591:in `call'
+    haml (3.1.4) lib/haml/helpers.rb:591:in `haml_bind_proc'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:249:in `form_for'
+    app/views/users/new.html.haml:3:in `_run_haml_app47views47users47new46html46haml'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (48.7ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2011-12-24 22:14:29) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_header (60.1ms)
+Rendered layouts/_footer (3.1ms)
+Completed in 77ms (View: 74, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2011-12-24 22:15:12) [GET]
+Rendering template within layouts/application
+Rendering users/new
+
+ActionView::TemplateError (undefined method `password' for #<User:0x1042285f8>) on line #14 of app/views/users/new.html.haml:
+11:     = f.text_field :email_address
+12:   %p
+13:     = f.label :password
+14:     = f.password_field :password
+15:   %p
+16:     = f.label :password_confirmation
+17:     = f.password_field :password_confirmation
+
+    app/views/users/new.html.haml:14:in `_run_haml_app47views47users47new46html46haml'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:243:in `call'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:243:in `form_for'
+    haml (3.1.4) lib/haml/helpers.rb:591:in `call'
+    haml (3.1.4) lib/haml/helpers.rb:591:in `haml_bind_proc'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:249:in `form_for'
+    app/views/users/new.html.haml:3:in `_run_haml_app47views47users47new46html46haml'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (46.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2011-12-24 22:15:16) [GET]
+Rendering template within layouts/application
+Rendering users/new
+
+ActionView::TemplateError (undefined method `password' for #<User:0x103e64200>) on line #14 of app/views/users/new.html.haml:
+11:     = f.text_field :email_address
+12:   %p
+13:     = f.label :password
+14:     = f.password_field :password
+15:   %p
+16:     = f.label :password_confirmation
+17:     = f.password_field :password_confirmation
+
+    app/views/users/new.html.haml:14:in `_run_haml_app47views47users47new46html46haml'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:243:in `call'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:243:in `form_for'
+    haml (3.1.4) lib/haml/helpers.rb:591:in `call'
+    haml (3.1.4) lib/haml/helpers.rb:591:in `haml_bind_proc'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:249:in `form_for'
+    app/views/users/new.html.haml:3:in `_run_haml_app47views47users47new46html46haml'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (103.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2011-12-24 22:15:19) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2011-12-24 22:18:57) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2011-12-24 22:19:37) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "user"=>{"name"=>"Ben", "password_confirmation"=>"password", "email_address"=>"senorduck@gmail.com", "password"=>"password"}}
+
+ActionController::UnknownAction (No action responded to create. Actions: admin_login?, new, and show):
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" [0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2011-12-24 22:21:09) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "user"=>{"name"=>"Ben", "password_confirmation"=>"password", "email_address"=>"senorduck@gmail.com", "password"=>"password"}}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email_address") = 'senorduck@gmail.com') LIMIT 1[0m
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/models/user.rb:33:in `secure_hash'
+  app/models/user.rb:33:in `make_salt'
+  app/models/user.rb:24:in `encrypt_password'
+  app/controllers/users_controller.rb:14:in `create'
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2011-12-24 22:21:53) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "user"=>{"name"=>"Ben", "password_confirmation"=>"password", "email_address"=>"senorduck@gmail.com", "password"=>"password"}}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email_address") = 'senorduck@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email_address") VALUES('Ben', '528a6ededf657c23678708a333026f821a89c7e0200b8fbb62ce99ea9c144341', 'c8c4745a1b7a6b6ffb3e4c425c61d5d16409673a1188df0f45cf2c4ad681acdb', '2011-12-25 03:21:53', '2011-12-25 03:21:53', 'senorduck@gmail.com')[0m
+
+ActionView::MissingTemplate (Missing template users/create.erb in view path app/views):
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2011-12-24 22:21:59) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" LIMIT 1[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2011-12-24 22:22:36) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "user"=>{"name"=>"something", "password_confirmation"=>"", "email_address"=>"someone@email.com", "password"=>""}}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email_address") = 'someone@email.com') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2011-12-24 22:22:47) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "user"=>{"name"=>"something", "password_confirmation"=>"somethingelse", "email_address"=>"someone@email.com", "password"=>"something"}}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email_address") = 'someone@email.com') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2011-12-24 22:22:52) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2011-12-24 22:24:58) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2011-12-24 22:25:09) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"users", "user"=>{"name"=>"Patrick", "password_confirmation"=>"[FILTERED]", "email_address"=>"plange@kline.com", "password"=>"[FILTERED]"}}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email_address") = 'plange@kline.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email_address") VALUES('Patrick', 'f6b040b95c5a9a257a49e94148cbd815822fe0f7d84ec8db17e71cd76cc81869', 'bb8bcd640cc7a1d30b2456b345943773e969c6aa6aabb84bb03b7ef2bdee139f', '2011-12-25 03:25:09', '2011-12-25 03:25:09', 'plange@kline.com')[0m
+Redirected to http://localhost:3000/users/2
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/users]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2011-12-24 22:25:09) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"users"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_header (1.6ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/users/2]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-12-24 22:34:37) [GET]
+
+ActionController::RoutingError (No route matches "/sessions/new" with {:method=>:get}):
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2011-12-24 22:36:07) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+
+NameError (uninitialized constant SessionsController):
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (25.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2011-12-24 22:37:03) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h2 and nested within it.) on line #2 of app/views/sessions/new.html.haml:
+1: %h2 Sign in
+2:   - form_for(:session, :url => sessions_path) do |f|
+3:     %p
+4:       = f.label :email_address
+5:       = f.text_field :email_address
+
+    app/views/sessions/new.html.haml:2
+    haml (3.1.4) lib/haml/parser.rb:341:in `tag'
+    haml (3.1.4) lib/haml/parser.rb:186:in `process_line'
+    haml (3.1.4) lib/haml/parser.rb:148:in `parse'
+    haml (3.1.4) lib/haml/engine.rb:124:in `initialize'
+    haml (3.1.4) rails/./lib/haml/template/plugin.rb:34:in `new'
+    haml (3.1.4) rails/./lib/haml/template/plugin.rb:34:in `compile'
+    haml (3.1.4) rails/./lib/haml/template/plugin.rb:39:in `call'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (43.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2011-12-24 22:37:24) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 73ms (View: 72, DB: 0) | 200 OK [http://localhost/sessions/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2011-12-24 22:39:08) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/sessions/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:39:11) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"ad@example.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/sessions]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:42:06) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"ad@example.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `find_by_email' for #<Class:0x103dc4610>):
+  app/models/user.rb:16:in `authenticate'
+  app/controllers/sessions_controller.rb:6:in `create'
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (83.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:42:26) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"ad@example.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/sessions]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:42:32) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"ad@example.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.4ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/sessions]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-12-24 22:42:35) [GET]
+
+ActionController::MethodNotAllowed (Only post requests are allowed.):
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (21.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2011-12-24 22:42:37) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/sessions/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:42:39) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"ad@example.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/sessions]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:43:22) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"ad@example.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (0.6ms)
+Completed in 69692ms (View: 7, DB: 0) | 200 OK [http://localhost/sessions]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:44:34) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"ad@example.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 2038ms (View: 4, DB: 0) | 200 OK [http://localhost/sessions]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2011-12-24 22:44:40) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/sessions/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2011-12-24 22:44:41) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/sessions/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:44:42) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"ad@example.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (0.5ms)
+Completed in 1629ms (View: 6, DB: 0) | 200 OK [http://localhost/sessions]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2011-12-24 22:45:45) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/sessions/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:45:46) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"ad@example.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (2.3ms)
+Rendered layouts/_footer (0.6ms)
+Completed in 4564ms (View: 9, DB: 0) | 200 OK [http://localhost/sessions]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:45:51) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"ad@example.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.4ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 2349ms (View: 4, DB: 0) | 200 OK [http://localhost/sessions]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:46:56) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"senorduck@gmail.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (2.2ms)
+Rendered layouts/_footer (0.6ms)
+Completed in 2412ms (View: 7, DB: 0) | 200 OK [http://localhost/sessions]
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" [0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:47:25) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"plange@kline.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/sessions]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:47:36) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"plange@kline.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/sessions]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2011-12-24 22:47:44) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2011-12-24 22:47:56) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"users", "user"=>{"name"=>"Ben", "password_confirmation"=>"[FILTERED]", "email_address"=>"yourgrandpa@aol.com", "password"=>"[FILTERED]"}}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email_address") = 'yourgrandpa@aol.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email_address") VALUES('Ben', 'adfd004c33cc308f3a6b223496f7c38277f3a82ea91072334271145a5407b7a3', 'c83b4cf23f74a77df90288f0151537a7567fcdb8f5263e534264bf7cd7a165fe', '2011-12-25 03:47:56', '2011-12-25 03:47:56', 'yourgrandpa@aol.com')[0m
+Redirected to http://localhost:3000/users/3
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/users]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2011-12-24 22:47:56) [GET]
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"users"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_header (1.5ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/users/3]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2011-12-24 22:47:59) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/sessions/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:48:05) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"yourgrandpa@aol.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/sessions]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:48:33) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"senorduck@gmail.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (2.1ms)
+Rendered layouts/_footer (0.6ms)
+Completed in 43607ms (View: 7, DB: 0) | 200 OK [http://localhost/sessions]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:49:22) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"senorduck@gmail.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/sessions]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:49:30) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"plange@kline.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 64ms (View: 4, DB: 0) | 200 OK [http://localhost/sessions]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:49:35) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"plange@kline.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.4ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/sessions]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:49:45) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"senorduck@gmail.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.8ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 6627ms (View: 5, DB: 1) | 200 OK [http://localhost/sessions]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:50:02) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"senorduck@gmail.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (6.8ms)
+Rendered layouts/_footer (3.4ms)
+Completed in 30390ms (View: 27, DB: 0) | 200 OK [http://localhost/sessions]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:50:39) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"senorduck@gmail.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (2.1ms)
+Rendered layouts/_footer (0.6ms)
+Completed in 7296ms (View: 7, DB: 0) | 200 OK [http://localhost/sessions]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:50:52) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"senorduck@gmail.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (0.6ms)
+Completed in 2098ms (View: 7, DB: 0) | 200 OK [http://localhost/sessions]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:50:59) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"plange@kline.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (0.5ms)
+Completed in 712ms (View: 6, DB: 0) | 200 OK [http://localhost/sessions]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:51:05) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"plange@kline.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (0.6ms)
+Completed in 776ms (View: 7, DB: 0) | 200 OK [http://localhost/sessions]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:51:43) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"yourgrandpa@aol.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (0.5ms)
+Completed in 36148ms (View: 6, DB: 1) | 200 OK [http://localhost/sessions]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:52:23) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"senorduck@gmail.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email_address" = 'senorduck@gmail.com') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 1176ms (View: 4, DB: 0) | 200 OK [http://localhost/sessions]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 22:52:29) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"senorduck@gmail.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email_address" = 'senorduck@gmail.com') LIMIT 1[0m
+
+NoMethodError (undefined method `sign_in' for #<SessionsController:0x103ff47c8>):
+  app/controllers/sessions_controller.rb:14:in `create'
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (30.7ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProjects (20111205015237)
+Migrating to CreateAccomplishments (20111205024852)
+Migrating to CreateUsers (20111205055203)
+Migrating to AddArtworkToProject (20111206035218)
+Migrating to AddPasswordToUsers (20111206042252)
+Migrating to AddStatusToProjects (20111206053841)
+Migrating to AddNameUniquenessIndex (20111225024025)
+Migrating to AddNameToUsers (20111225024336)
+Migrating to ChangePasswordToEncryptedPassword (20111225025524)
+Migrating to AddRememberTokenToUsers (20111225035703)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mALTER TABLE "users" ADD "remember_token" varchar(255)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20111225035703')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("accomplishments")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("projects")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_info('index_users_on_email_address')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddRememberTokenToUsers (20111225035703)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email_address" text, "created_at" datetime, "updated_at" datetime, "name" varchar(255), "encrypted_password" varchar(255), "salt" varchar(255), "remember_token" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_info('index_users_on_email_address')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE UNIQUE INDEX "temp_index_altered_users_on_email_address" ON "altered_users" ("email_address")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "users"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email_address" text, "created_at" datetime, "updated_at" datetime, "name" varchar(255), "encrypted_password" varchar(255), "salt" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_users")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_info('temp_index_altered_users_on_email_address')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCREATE UNIQUE INDEX "index_users_on_email_address" ON "users" ("email_address")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDROP TABLE "altered_users"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20111225035703'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("accomplishments")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("projects")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("users")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_info('index_users_on_email_address')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProjects (20111205015237)
+Migrating to CreateAccomplishments (20111205024852)
+Migrating to CreateUsers (20111205055203)
+Migrating to AddArtworkToProject (20111206035218)
+Migrating to AddPasswordToUsers (20111206042252)
+Migrating to AddStatusToProjects (20111206053841)
+Migrating to AddNameUniquenessIndex (20111225024025)
+Migrating to AddNameToUsers (20111225024336)
+Migrating to ChangePasswordToEncryptedPassword (20111225025524)
+Migrating to AddRememberTokenToUsers (20111225035703)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mALTER TABLE "users" ADD "remember_token" varchar(255)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCREATE INDEX "index_users_on_remember_token" ON "users" ("remember_token")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20111225035703')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("accomplishments")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("projects")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("users")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_info('index_users_on_remember_token')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_info('index_users_on_email_address')[0m
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:02:40) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+
+ActionView::TemplateError (undefined method `admin_login?' for #<ActionView::Base:0x103d8af00>) on line #2 of app/views/projects/index.html.haml:
+1: #work
+2:   - if admin_login?
+3:     %span.admin_panel
+4:       = link_to('New Project', new_project_path, :class => "lg_link")
+5:       = link_to('View Deleted Projects', deleted_projects_path, :class => "lg_link")
+
+    app/views/projects/index.html.haml:2:in `_run_haml_app47views47projects47index46html46haml'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (96.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:02:52) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+
+ActionView::TemplateError (undefined method `admin_login?' for #<ActionView::Base:0x104216cb8>) on line #2 of app/views/projects/index.html.haml:
+1: #work
+2:   - if admin_login?
+3:     %span.admin_panel
+4:       = link_to('New Project', new_project_path, :class => "lg_link")
+5:       = link_to('View Deleted Projects', deleted_projects_path, :class => "lg_link")
+
+    app/views/projects/index.html.haml:2:in `_run_haml_app47views47projects47index46html46haml'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (38.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:03:42) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.4ms)
+Rendered layouts/_footer (3.0ms)
+Completed in 55ms (View: 50, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2011-12-24 23:03:49) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.4ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/signin]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 23:03:54) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"senorduck@gmail.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email_address" = 'senorduck@gmail.com') LIMIT 1[0m
+  [4;35;1mUser Update (3.2ms)[0m   [0mUPDATE "users" SET "updated_at" = '2011-12-25 04:03:58', "remember_token" = 'bbe9482117f37d82918f5d2d42188ef80bb39cb552fe6f54ed69d60a6394cf5c' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/users/1
+Completed in 4426ms (DB: 3) | 302 Found [http://localhost/sessions]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2011-12-24 23:03:58) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"users"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'bbe9482117f37d82918f5d2d42188ef80bb39cb552fe6f54ed69d60a6394cf5c') LIMIT 1[0m
+Rendered layouts/_header (1.4ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:04:02) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'bbe9482117f37d82918f5d2d42188ef80bb39cb552fe6f54ed69d60a6394cf5c') LIMIT 1[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM "projects" WHERE (status in ('active','pending')) [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 17ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#deleted (for 127.0.0.1 at 2011-12-24 23:04:06) [GET]
+  Parameters: {"action"=>"deleted", "controller"=>"projects"}
+  [4;36;1mProject Load (1.0ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'deleted') [0m
+Rendering template within layouts/application
+Rendering projects/deleted
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'bbe9482117f37d82918f5d2d42188ef80bb39cb552fe6f54ed69d60a6394cf5c') LIMIT 1[0m
+Rendered layouts/_header (1.4ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 107ms (View: 99, DB: 1) | 200 OK [http://localhost/projects/deleted]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-12-24 23:04:06) [GET]
+
+ActionController::RoutingError (No route matches "/artworks/thumb_off/missing.png" with {:method=>:get}):
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-12-24 23:04:06) [GET]
+
+ActionController::RoutingError (No route matches "/artworks/thumb_on/missing.png" with {:method=>:get}):
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:04:09) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'bbe9482117f37d82918f5d2d42188ef80bb39cb552fe6f54ed69d60a6394cf5c') LIMIT 1[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM "projects" WHERE (status in ('active','pending')) [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 17ms (View: 9, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2011-12-24 23:04:14) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"sessions"}
+
+ActionView::MissingTemplate (Missing template sessions/destroy.erb in view path app/views):
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2011-12-24 23:04:53) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"sessions"}
+
+NameError (undefined local variable or method `sign_out' for #<SessionsController:0x10441f438>):
+  app/controllers/sessions_controller.rb:20:in `destroy'
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (29.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2011-12-24 23:06:35) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/signout]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:06:35) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2011-12-24 23:07:36) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/signin]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 23:07:41) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"senorduck@gmail.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email_address" = 'senorduck@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Update (3.6ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2011-12-25 04:07:45', "remember_token" = '31423cf9c24d5c637de33b7ca94ab36b6efa6b68af14560e29f596173e97ceb3' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/users/1
+Completed in 4302ms (DB: 4) | 302 Found [http://localhost/sessions]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2011-12-24 23:07:45) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"users"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '31423cf9c24d5c637de33b7ca94ab36b6efa6b68af14560e29f596173e97ceb3') LIMIT 1[0m
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2011-12-24 23:08:11) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+
+ActionView::TemplateError (undefined method `name' for nil:NilClass) on line #2 of app/views/users/show.html.haml:
+1: %h2
+2:   = h(@user.name)
+
+    app/views/users/show.html.haml:2:in `_run_haml_app47views47users47show46html46haml'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-12-24 23:08:54) [GET]
+
+ActionController::RoutingError (No route matches "/users/" with {:method=>:get}):
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-12-24 23:08:59) [GET]
+
+ActionController::RoutingError (No route matches "/users/new" with {:method=>:get}):
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2011-12-24 23:09:07) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = '31423cf9c24d5c637de33b7ca94ab36b6efa6b68af14560e29f596173e97ceb3') LIMIT 1[0m
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2011-12-24 23:09:10) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to index. Actions: create, current_user, current_user=, new, sign_in, sign_out, signed_in?, and user_from_remember_token):
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2011-12-24 23:09:14) [GET]
+  Parameters: {"action"=>"create", "controller"=>"users"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email_address" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = '31423cf9c24d5c637de33b7ca94ab36b6efa6b68af14560e29f596173e97ceb3') LIMIT 1[0m
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 19ms (View: 14, DB: 0) | 200 OK [http://localhost/users/create]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:09:33) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '31423cf9c24d5c637de33b7ca94ab36b6efa6b68af14560e29f596173e97ceb3') LIMIT 1[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM "projects" WHERE (status in ('active','pending')) [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 17ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:10:06) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '31423cf9c24d5c637de33b7ca94ab36b6efa6b68af14560e29f596173e97ceb3') LIMIT 1[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM "projects" WHERE (status in ('active','pending')) [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (8.0ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 26ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2011-12-24 23:10:11) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/signout]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:10:11) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2011-12-24 23:10:15) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/signin]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 23:10:47) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"senorduck@gmail.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email_address" = 'senorduck@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Update (0.9ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2011-12-25 04:10:47', "remember_token" = 'e556c820a8f8d93bb3f47dba2dac84dc37d6a28eaaa287bfc804941bb545f110' WHERE "id" = 1[0m
+
+NoMethodError (undefined method `user_url' for #<SessionsController:0x103fd2510>):
+  app/controllers/sessions_controller.rb:15:in `create'
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (31.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2011-12-24 23:11:04) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'e556c820a8f8d93bb3f47dba2dac84dc37d6a28eaaa287bfc804941bb545f110') LIMIT 1[0m
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/signin]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2011-12-24 23:11:07) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/signout]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:11:07) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2011-12-24 23:11:10) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/signin]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 23:11:15) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"senorduck@gmail.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email_address" = 'senorduck@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Update (1.2ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2011-12-25 04:11:15', "remember_token" = '2e5cc7007ba536b8d4c05296dc08a9955023c72402c346106b48cbe7d2e78c33' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/
+Completed in 7ms (DB: 1) | 302 Found [http://localhost/sessions]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:11:15) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = '2e5cc7007ba536b8d4c05296dc08a9955023c72402c346106b48cbe7d2e78c33') LIMIT 1[0m
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM "projects" WHERE (status in ('active','pending')) [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:11:49) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = '2e5cc7007ba536b8d4c05296dc08a9955023c72402c346106b48cbe7d2e78c33') LIMIT 1[0m
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM "projects" WHERE (status in ('active','pending')) [0m
+Rendering template within layouts/application
+Rendering projects/index
+
+ActionView::TemplateError (undefined local variable or method `sign_out_path' for #<ActionView::Base:0x103dd4060>) on line #25 of app/views/layouts/_header.html.haml:
+22: = banner
+23: - if signed_in?
+24:   %h1= "Welcome, #{current_user.name}"
+25:   = link_to("Sign out", sign_out_path)
+26: - flash.each do |key, value|
+27:   %div{:class => "flash #{key}"}
+28:     = value
+
+    app/views/layouts/_header.html.haml:25:in `_run_haml_app47views47layouts47_header46html46haml_locals_header_object'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (3.1.4) lib/haml/helpers.rb:90:in `non_haml'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/layouts/application.html.haml:8:in `_run_haml_app47views47layouts47application46html46haml'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (47.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:11:54) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = '2e5cc7007ba536b8d4c05296dc08a9955023c72402c346106b48cbe7d2e78c33') LIMIT 1[0m
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM "projects" WHERE (status in ('active','pending')) [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (8.2ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 26ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2011-12-24 23:12:15) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/signout]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:12:15) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2011-12-24 23:12:20) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/signin]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 23:12:30) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"senorduck@gmail.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email_address" = 'senorduck@gmail.com') LIMIT 1[0m
+  [4;35;1mUser Update (1.2ms)[0m   [0mUPDATE "users" SET "updated_at" = '2011-12-25 04:12:30', "remember_token" = '685c693a402e1a76dbb02402c4ffaf2200a4cbdd138d931908ce2ba7d644f5cd' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/
+Completed in 7ms (DB: 1) | 302 Found [http://localhost/sessions]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:12:30) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '685c693a402e1a76dbb02402c4ffaf2200a4cbdd138d931908ce2ba7d644f5cd') LIMIT 1[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM "projects" WHERE (status in ('active','pending')) [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (2.1ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#deleted (for 127.0.0.1 at 2011-12-24 23:12:32) [GET]
+  Parameters: {"action"=>"deleted", "controller"=>"projects"}
+  [4;36;1mProject Load (0.9ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."status" = 'deleted') [0m
+Rendering template within layouts/application
+Rendering projects/deleted
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = '685c693a402e1a76dbb02402c4ffaf2200a4cbdd138d931908ce2ba7d644f5cd') LIMIT 1[0m
+Rendered layouts/_header (2.2ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 47ms (View: 41, DB: 1) | 200 OK [http://localhost/projects/deleted]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-12-24 23:12:32) [GET]
+
+ActionController::RoutingError (No route matches "/artworks/thumb_off/missing.png" with {:method=>:get}):
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-12-24 23:12:32) [GET]
+
+ActionController::RoutingError (No route matches "/artworks/thumb_on/missing.png" with {:method=>:get}):
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:12:35) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '685c693a402e1a76dbb02402c4ffaf2200a4cbdd138d931908ce2ba7d644f5cd') LIMIT 1[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM "projects" WHERE (status in ('active','pending')) [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (2.1ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-12-24 23:12:41) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '685c693a402e1a76dbb02402c4ffaf2200a4cbdd138d931908ce2ba7d644f5cd') LIMIT 1[0m
+Rendered layouts/_header (2.2ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing AccomplishmentsController#index (for 127.0.0.1 at 2011-12-24 23:12:43) [GET]
+  Parameters: {"action"=>"index", "controller"=>"accomplishments"}
+  [4;35;1mAccomplishment Load (0.4ms)[0m   [0mSELECT * FROM "accomplishments" ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering accomplishments/index
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '685c693a402e1a76dbb02402c4ffaf2200a4cbdd138d931908ce2ba7d644f5cd') LIMIT 1[0m
+Rendered layouts/_header (2.1ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 13ms (View: 10, DB: 1) | 200 OK [http://localhost/accomplishments]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:12:46) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = '685c693a402e1a76dbb02402c4ffaf2200a4cbdd138d931908ce2ba7d644f5cd') LIMIT 1[0m
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM "projects" WHERE (status in ('active','pending')) [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2011-12-24 23:15:24) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = '685c693a402e1a76dbb02402c4ffaf2200a4cbdd138d931908ce2ba7d644f5cd') LIMIT 1[0m
+Rendered layouts/_header (2.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/signin]
+
+
+Processing UsersController#1 (for 127.0.0.1 at 2011-12-24 23:16:35) [GET]
+  Parameters: {"action"=>"1", "id"=>"edit", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, current_user, current_user=, edit, new, sign_in, sign_out, signed_in?, and user_from_remember_token):
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2011-12-24 23:17:02) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"users"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+
+ActionView::MissingTemplate (Missing template users/edit.erb in view path app/views):
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2011-12-24 23:17:56) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"users"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering users/edit
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h2 and nested within it.) on line #2 of app/views/users/edit.html.haml:
+1: %h2 Edit User
+2:   - form_for(@user) do |f|
+3:     = f.error_messages
+
+    app/views/users/edit.html.haml:2
+    haml (3.1.4) lib/haml/parser.rb:341:in `tag'
+    haml (3.1.4) lib/haml/parser.rb:186:in `process_line'
+    haml (3.1.4) lib/haml/parser.rb:148:in `parse'
+    haml (3.1.4) lib/haml/engine.rb:124:in `initialize'
+    haml (3.1.4) rails/./lib/haml/template/plugin.rb:34:in `new'
+    haml (3.1.4) rails/./lib/haml/template/plugin.rb:34:in `compile'
+    haml (3.1.4) rails/./lib/haml/template/plugin.rb:39:in `call'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2011-12-24 23:18:14) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"users"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering users/edit
+
+ActionView::TemplateError (undefined method `user_path' for #<ActionView::Base:0x103ad2498>) on line #2 of app/views/users/edit.html.haml:
+1: %h2 Edit User
+2: - form_for(@user) do |f|
+3:   = f.error_messages
+
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:249:in `form_for'
+    app/views/users/edit.html.haml:2:in `_run_haml_app47views47users47edit46html46haml'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (105.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2011-12-24 23:18:45) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"users"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering users/edit
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '685c693a402e1a76dbb02402c4ffaf2200a4cbdd138d931908ce2ba7d644f5cd') LIMIT 1[0m
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/1/edit]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2011-12-24 23:21:08) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"users"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering users/edit
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '685c693a402e1a76dbb02402c4ffaf2200a4cbdd138d931908ce2ba7d644f5cd') LIMIT 1[0m
+Rendered layouts/_header (7.2ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 23ms (View: 19, DB: 0) | 200 OK [http://localhost/users/1/edit]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2011-12-24 23:21:16) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"users"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering users/edit
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '685c693a402e1a76dbb02402c4ffaf2200a4cbdd138d931908ce2ba7d644f5cd') LIMIT 1[0m
+Rendered layouts/_header (7.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://localhost/users/1/edit]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:21:21) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = '685c693a402e1a76dbb02402c4ffaf2200a4cbdd138d931908ce2ba7d644f5cd') LIMIT 1[0m
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE (status in ('active','pending')) [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (2.2ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2011-12-24 23:21:23) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"users"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering users/edit
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '685c693a402e1a76dbb02402c4ffaf2200a4cbdd138d931908ce2ba7d644f5cd') LIMIT 1[0m
+Rendered layouts/_header (1.4ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/users/1/edit]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2011-12-24 23:22:56) [GET]
+  Parameters: {"action"=>"edit", "id"=>"2", "controller"=>"users"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/edit
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '685c693a402e1a76dbb02402c4ffaf2200a4cbdd138d931908ce2ba7d644f5cd') LIMIT 1[0m
+Rendered layouts/_header (1.4ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/users/2/edit]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2011-12-24 23:23:00) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"users"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering users/edit
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '685c693a402e1a76dbb02402c4ffaf2200a4cbdd138d931908ce2ba7d644f5cd') LIMIT 1[0m
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/users/1/edit]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2011-12-24 23:23:05) [PUT]
+  Parameters: {"commit"=>"Update", "action"=>"update", "_method"=>"put", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "id"=>"1", "controller"=>"users", "user"=>{"name"=>"Benjamin", "password_confirmation"=>"[FILTERED]", "email_address"=>"senorduck@gmail.com", "password"=>"[FILTERED]"}}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email_address") = 'senorduck@gmail.com' AND "users".id <> 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/edit
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = '685c693a402e1a76dbb02402c4ffaf2200a4cbdd138d931908ce2ba7d644f5cd') LIMIT 1[0m
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 62ms (View: 10, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2011-12-24 23:23:13) [PUT]
+  Parameters: {"commit"=>"Update", "action"=>"update", "_method"=>"put", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "id"=>"1", "controller"=>"users", "user"=>{"name"=>"Benjamin", "password_confirmation"=>"[FILTERED]", "email_address"=>"senorduck@gmail.com", "password"=>"[FILTERED]"}}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email_address") = 'senorduck@gmail.com' AND "users".id <> 1) LIMIT 1[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2011-12-25 04:23:13', "encrypted_password" = '18a05f11f3c71b22eb3106bf872e102bcad4b844146b6f993d8342c7aac57ba8', "salt" = '8320384ff369188b4ef9a27bf174811cfa82a150918eb1ff3c27ed714edd1e30', "name" = 'Benjamin' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/users/1]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:23:13) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = '685c693a402e1a76dbb02402c4ffaf2200a4cbdd138d931908ce2ba7d644f5cd') LIMIT 1[0m
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE (status in ('active','pending')) [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (2.4ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 67ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:25:12) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = '685c693a402e1a76dbb02402c4ffaf2200a4cbdd138d931908ce2ba7d644f5cd') LIMIT 1[0m
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM "projects" WHERE (status in ('active','pending')) [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (2.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2011-12-24 23:25:17) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/signout]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:25:17) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2011-12-24 23:25:20) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"users"}
+Redirected to http://localhost:3000/signin
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/users/1/edit]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2011-12-24 23:25:20) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/signin]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2011-12-24 23:25:41) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/signin]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2011-12-24 23:25:49) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"users"}
+Redirected to http://localhost:3000/signin
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/users/1/edit]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2011-12-24 23:25:49) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/signin]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2011-12-24 23:28:19) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/signin]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2011-12-24 23:28:22) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"users"}
+Redirected to http://localhost:3000/signin
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/users/1/edit]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2011-12-24 23:28:22) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/signin]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 23:28:27) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"senorduck@gmail.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email_address" = 'senorduck@gmail.com') LIMIT 1[0m
+  [4;35;1mUser Update (1.2ms)[0m   [0mUPDATE "users" SET "updated_at" = '2011-12-25 04:28:27', "remember_token" = 'a55404da3e30bd3d7aa4fa6afb588c00674ab8726af919e3a1cf6bb4740bdc9b' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/
+Completed in 8ms (DB: 1) | 302 Found [http://localhost/sessions]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:28:27) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'a55404da3e30bd3d7aa4fa6afb588c00674ab8726af919e3a1cf6bb4740bdc9b') LIMIT 1[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE (status in ('active','pending')) [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (2.1ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2011-12-24 23:28:30) [GET]
+  Parameters: {"action"=>"edit", "id"=>"2", "controller"=>"users"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'a55404da3e30bd3d7aa4fa6afb588c00674ab8726af919e3a1cf6bb4740bdc9b') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Redirected to http://localhost:3000/
+Filter chain halted as [:correct_user] rendered_or_redirected.
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/users/2/edit]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:28:30) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'a55404da3e30bd3d7aa4fa6afb588c00674ab8726af919e3a1cf6bb4740bdc9b') LIMIT 1[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM "projects" WHERE (status in ('active','pending')) [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (2.2ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 17ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2011-12-24 23:28:39) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"users"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'a55404da3e30bd3d7aa4fa6afb588c00674ab8726af919e3a1cf6bb4740bdc9b') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering users/edit
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/users/1/edit]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2011-12-24 23:28:43) [GET]
+  Parameters: {"action"=>"edit", "id"=>"2", "controller"=>"users"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'a55404da3e30bd3d7aa4fa6afb588c00674ab8726af919e3a1cf6bb4740bdc9b') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Redirected to http://localhost:3000/
+Filter chain halted as [:correct_user] rendered_or_redirected.
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/users/2/edit]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:28:43) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'a55404da3e30bd3d7aa4fa6afb588c00674ab8726af919e3a1cf6bb4740bdc9b') LIMIT 1[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM "projects" WHERE (status in ('active','pending')) [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (2.1ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#1 (for 127.0.0.1 at 2011-12-24 23:31:32) [GET]
+  Parameters: {"action"=>"1", "id"=>"show", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: clear_return_to, create, current_user, current_user=, current_user?, deny_access, new, redirect_back_or, sign_in, sign_out, signed_in?, store_location, update, and user_from_remember_token):
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2011-12-24 23:31:34) [GET]
+  Parameters: {"action"=>"show", "id"=>"show", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+
+ActionView::TemplateError (undefined method `name' for nil:NilClass) on line #2 of app/views/users/show.html.haml:
+1: %h2
+2:   = h(@user.name)
+
+    app/views/users/show.html.haml:2:in `_run_haml_app47views47users47show46html46haml'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.1.4) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (39.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2011-12-24 23:31:36) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to index. Actions: clear_return_to, create, current_user, current_user=, current_user?, deny_access, new, redirect_back_or, sign_in, sign_out, signed_in?, store_location, update, and user_from_remember_token):
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2011-12-24 23:31:38) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'a55404da3e30bd3d7aa4fa6afb588c00674ab8726af919e3a1cf6bb4740bdc9b') LIMIT 1[0m
+Rendered layouts/_header (1.4ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2011-12-24 23:31:42) [GET]
+  Parameters: {"action"=>"edit", "id"=>"2", "controller"=>"users"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'a55404da3e30bd3d7aa4fa6afb588c00674ab8726af919e3a1cf6bb4740bdc9b') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Redirected to http://localhost:3000/
+Filter chain halted as [:correct_user] rendered_or_redirected.
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/users/2/edit]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:31:42) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'a55404da3e30bd3d7aa4fa6afb588c00674ab8726af919e3a1cf6bb4740bdc9b') LIMIT 1[0m
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM "projects" WHERE (status in ('active','pending')) [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (2.2ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2011-12-24 23:33:25) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"users"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'a55404da3e30bd3d7aa4fa6afb588c00674ab8726af919e3a1cf6bb4740bdc9b') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/users_controller.rb:38:in `current_user'
+  app/controllers/users_controller.rb:38:in `correct_user'
+  sass (3.1.11) rails/./lib/sass/plugin/rack.rb:54:in `call'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bhaley/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (100.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2011-12-24 23:33:46) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"users"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'a55404da3e30bd3d7aa4fa6afb588c00674ab8726af919e3a1cf6bb4740bdc9b') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering users/edit
+Rendered layouts/_header (1.4ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/users/1/edit]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2011-12-24 23:33:50) [GET]
+  Parameters: {"action"=>"edit", "id"=>"2", "controller"=>"users"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'a55404da3e30bd3d7aa4fa6afb588c00674ab8726af919e3a1cf6bb4740bdc9b') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Redirected to http://localhost:3000/
+Filter chain halted as [:correct_user] rendered_or_redirected.
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/users/2/edit]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:33:50) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'a55404da3e30bd3d7aa4fa6afb588c00674ab8726af919e3a1cf6bb4740bdc9b') LIMIT 1[0m
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM "projects" WHERE (status in ('active','pending')) [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (2.3ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:35:53) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'a55404da3e30bd3d7aa4fa6afb588c00674ab8726af919e3a1cf6bb4740bdc9b') LIMIT 1[0m
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" WHERE (status in ('active','pending')) [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (2.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2011-12-24 23:35:55) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/signout]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:35:56) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."status" = 'active') [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (1.4ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2011-12-24 23:35:59) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/signin]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2011-12-24 23:36:05) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"email_address"=>"senorduck@gmail.com", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"2fq2XiiODpbV+6TjKzfh0rvyPWfBHfgDhKVsId+O7OI=", "controller"=>"sessions"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email_address" = 'senorduck@gmail.com') LIMIT 1[0m
+  [4;35;1mUser Update (0.8ms)[0m   [0mUPDATE "users" SET "updated_at" = '2011-12-25 04:36:05', "remember_token" = '615d781a0b6ca0ecb71caebaa72d552d8c50c7f201525122d646cc3a7f5a69b6' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/
+Completed in 8ms (DB: 1) | 302 Found [http://localhost/sessions]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-12-24 23:36:05) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '615d781a0b6ca0ecb71caebaa72d552d8c50c7f201525122d646cc3a7f5a69b6') LIMIT 1[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM "projects" WHERE (status in ('active','pending')) [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered layouts/_header (2.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/]

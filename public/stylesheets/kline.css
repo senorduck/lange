@@ -286,6 +286,8 @@ p {
   padding: 10px 0; }
   .flash.success {
     background-color: #32cd32; }
+  .flash.error, .flash.notice {
+    background-color: red; }
 
 .admin a:hover {
   color: black; }

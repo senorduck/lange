@@ -1,5 +1,5 @@
 #work
-  - if admin_login?
+  - if signed_in?
     %span.admin_panel
       = link_to('View Active Projects', projects_path, :class => "lg_link")
   - @projects.in_groups_of(6) do |project_group|
@@ -14,7 +14,7 @@
             %a{:href => project.artwork.url, :target => "_blank", :class => "lightbox_trigger"}
               = image_tag(project.artwork.url(:thumb_off), :width => 125, :height => 168, :alt => project.title)
               = image_tag(project.artwork.url(:thumb_on), :width => 125, :height => 168, :alt => "", :class => "on")
-            - if admin_login?
+            - if signed_in?
               #admin_controls
                 = "&quot;#{h(project.title)}&quot;"
                 %br

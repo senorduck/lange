@@ -3,7 +3,7 @@ class ProjectsController < ApplicationController
   before_filter :set_title_prefix
 
   def index
-    @projects = admin_login? ? Project.visible.all : Project.active.all
+    @projects = signed_in? ? Project.visible.all : Project.active.all
   end
 
   def show

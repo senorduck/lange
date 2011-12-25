@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111206053841) do
+ActiveRecord::Schema.define(:version => 20111225035703) do
 
   create_table "accomplishments", :force => true do |t|
     t.text     "description"
@@ -33,7 +33,13 @@ ActiveRecord::Schema.define(:version => 20111206053841) do
     t.text     "email_address"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "password"
+    t.string   "name"
+    t.string   "encrypted_password"
+    t.string   "salt"
+    t.string   "remember_token"
   end
+
+  add_index "users", ["email_address"], :name => "index_users_on_email_address", :unique => true
+  add_index "users", ["remember_token"], :name => "index_users_on_remember_token"
 
 end

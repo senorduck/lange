@@ -1,5 +1,5 @@
 #work
-  - if admin_login?
+  - if signed_in?
     %span.admin_panel
       = link_to('New Project', new_project_path, :class => "lg_link")
       = link_to('View Deleted Projects', deleted_projects_path, :class => "lg_link")
@@ -15,7 +15,7 @@
             %a{:href => project.artwork.url, :target => "_blank", :class => "lightbox_trigger"}
               = image_tag(project.artwork.url(:thumb_off), :width => 125, :height => 168, :alt => project.title)
               = image_tag(project.artwork.url(:thumb_on), :width => 125, :height => 168, :alt => "", :class => "on")
-            - if admin_login?
+            - if signed_in?
               #admin_controls
                 - if project.status == 'pending'
                   = link_to 'Publish Changes', publish_project_path(project)

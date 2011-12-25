@@ -1,0 +1,10 @@
+%h2 Sign in
+- form_for(:session, :url => sessions_path) do |f|
+  %p
+    = f.label :email_address
+    = f.text_field :email_address
+  %p
+    = f.label :password
+    = f.password_field :password
+  %p
+    = f.submit "Sign in"
