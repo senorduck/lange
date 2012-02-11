@@ -34,10 +34,12 @@ width:950px;
 z-index:50;
 }
 #header {
+background: #fff;
 float:left;
-position:static;
+position:fixed;
 padding:24px 0 12px 22px;
 width:928px;
+z-index: 900;
 }
 #header #logos {
 float:left;
@@ -122,6 +124,9 @@ margin-top:-19px;
 }
 #rnav li ul li:hover img {
 margin-top:0;
+}
+.banner {
+	margin-top: 90px;
 }
 #work {
 float:left;
@@ -264,6 +269,7 @@ width:100%;
 }
 #lightbox-secNav-btnClose {
 width:10px;
+
 float:right;
 margin:8px 8px 4px 0;
 }
