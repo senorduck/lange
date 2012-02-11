@@ -133,15 +133,11 @@ float:left;
 padding:0 14px 100px 14px;
 width:922px;
 }
-#work .row {
-float:left;
-margin:24px 0 8px 0;
-}
 #work .project {
 display:inline;
 float:left;
 height:168px;
-margin:0 14px;
+margin:24px 14px 8px;
 position:relative;
 width:125px;
 }
