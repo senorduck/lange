@@ -120,7 +120,7 @@ overflow:hidden;
 	opacity: 1.0;
 	filter: none;
 }
-#rnav #contact:hover ul {
+.csstransitions #rnav #contact:hover ul {
 	height: 74px;
 }
 #rnav #contact ul {
@@ -161,7 +161,7 @@ transition: opacity .6s;
 -o-transition: opacity .6s;
 z-index:100;
 }
-#work .project:hover img.on {
+.csstransitions #work .project:hover img.on {
 	opacity: 1.0;
 	filter: alpha(opacity = 100);
 }
