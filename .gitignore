@@ -1,5 +1,8 @@
+/build/*
 /logs/*
 /log/*
 /public/system/*
+/intermediate/*
+/publish/*
 lange.sublime-workspace
 lange.sublime-project
