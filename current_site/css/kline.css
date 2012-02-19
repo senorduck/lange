@@ -153,9 +153,11 @@ position:absolute;
 z-index:10;
 }
 #work .project img.on {
+	display: none;
 	z-index:100;
 }
 .csstransitions #work .project img.on {
+display: block;
 opacity: 0.0;
 filter: alpha(opacity = 0);
 transition: opacity .6s;
@@ -166,9 +168,6 @@ transition: opacity .6s;
 .csstransitions #work .project:hover img.on {
 	opacity: 1.0;
 	filter: alpha(opacity = 100);
-}
-.no-csstransitions #work .project img.on {
-	display: none;
 }
 #about,#accomplish {
 float:left;
