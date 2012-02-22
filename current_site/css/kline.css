@@ -170,8 +170,28 @@ transition: opacity .6s;
 	filter: alpha(opacity = 100);
 }
 @media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+	#header {
+		position: relative;
+	}
+	.banner {
+		margin-top: 20px;
+	}
+	#work .project img.on, .csstransitions #work .project img.on {
+		display: block;
+		opacity: 1.0;
+	}
+}
+@media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
+	#header {
+		position: relative;
+	}
+	.banner {
+		margin-top: 20px;
+	}
 	#work .project img.on, .csstransitions #work .project img.on {
 		display: block;
 		opacity: 1.0;
