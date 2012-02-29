@@ -5,7 +5,6 @@ $ ->
 
 	if elemsToTransition
 		contactMenu = $("#contact")
-		projects = $(".project")
 
 		contactMenu
 			.bind "mouseenter", (event) ->
@@ -13,13 +12,6 @@ $ ->
 				.animate height: '74px', 300
 			.bind "mouseleave", (event) ->
 				$(this).find("ul").animate height: 0, 300
-
-		projects
-			.bind "mouseenter", (event) ->
-				$(this).find("img.on").fadeIn 600
-
-			.bind "mouseleave", (event) ->
-				$(this).find("img.on").fadeOut 600
 	
 	if showProjectLinks
 		projectLinks.lightBox
