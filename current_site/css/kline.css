@@ -152,23 +152,6 @@ display:none;
 position:absolute;
 z-index:10;
 }
-#work .project img.on {
-	display: none;
-	z-index:100;
-}
-.csstransitions #work .project img.on {
-display: block;
-opacity: 0.0;
-filter: alpha(opacity = 0);
-transition: opacity .6s;
--moz-transition: opacity .6s;
--webkit-transition: opacity .6s;
--o-transition: opacity .6s;
-}
-.csstransitions #work .project:hover img.on {
-	opacity: 1.0;
-	filter: alpha(opacity = 100);
-}
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
@@ -177,10 +160,6 @@ and (max-device-width : 480px) {
 	}
 	.banner {
 		margin-top: 20px;
-	}
-	#work .project img.on, .csstransitions #work .project img.on {
-		display: block;
-		opacity: 1.0;
 	}
 }
 @media only screen
@@ -191,10 +170,6 @@ and (max-device-width : 1024px) {
 	}
 	.banner {
 		margin-top: 20px;
-	}
-	#work .project img.on, .csstransitions #work .project img.on {
-		display: block;
-		opacity: 1.0;
 	}
 }
 #about,#accomplish {
