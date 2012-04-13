@@ -12,6 +12,14 @@ $ ->
 				.animate height: '74px', 300
 			.bind "mouseleave", (event) ->
 				$(this).find("ul").animate height: 0, 300
+
+		projects = $(".project")
+		projects
+			.bind "mouseenter", (e) ->
+				$(this).find(".title").fadeIn 600
+
+			.bind "mouseleave", (e) ->
+				$(this).find(".title").fadeOut 600
 	
 	if showProjectLinks
 		projectLinks.lightBox
