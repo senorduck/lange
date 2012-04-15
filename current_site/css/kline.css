@@ -185,6 +185,9 @@ and (max-device-width : 480px) {
 	.banner {
 		margin-top: 20px;
 	}
+	#work .project .title {
+		opacity: 1.0;
+	}
 }
 @media only screen
 and (min-device-width : 768px)
@@ -194,6 +197,9 @@ and (max-device-width : 1024px) {
 	}
 	.banner {
 		margin-top: 20px;
+	}
+	#work .project .title {
+		opacity: 1.0;
 	}
 }
 #about,#accomplish {
