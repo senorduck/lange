@@ -149,7 +149,8 @@ p {
 	text-decoration: none;
 }
 #work .project .title {
-	background-color: rgba(255, 255, 255, .8);
+	background: #fff;
+	background: rgba(255, 255, 255, .8);
 	color: #666;
 	opacity: 0;
 	font-size: 14px;
